@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title></title>
     <style>
-        *{margin: 0px;
+        * {
+            margin: 0px;
             padding: 0px;;
         }
-        #menue li{
-           color: blueviolet;
+
+        #menue li {
+            color: blueviolet;
             display: block;
             background-color: beige;
             width: 100px;
@@ -20,52 +22,59 @@
             line-height: 30px;
         }
 
-    #menue a{
-        text-decoration: none;
-        width: 100px;
-        display: block;
-    }
-    #menue .first-menue {
-        background-color: red;
-        float: left;
-}
- #menue .sec li{
-     background-color: lime;
-     display: block;
-     margin-left:auto;
+        #menue a {
+            text-decoration: none;
+            width: 100px;
+            display: block;
+        }
 
+        #menue .first-menue {
+            background-color: red;
+            float: left;
+        }
 
- }
-        #menue .sec li a{
+        #menue .sec li {
+            background-color: lime;
+            display: block;
+            margin-left: auto;
+
+        }
+
+        #menue .sec li a {
 
             text-align: center;
 
         }
-        #menue .first-menue li{
-            border-bottom: 1px solid ;
-        }
-        #menue .sec{
-          display:none;
+
+        #menue .first-menue li {
+            border-bottom: 1px solid;
         }
 
+        #menue .sec {
+            display: none;
+        }
+
+        /*#menue .first-menue:hover .sec{
+            display: block;
+        }*/
     </style>
 </head>
 <body>
 <ul id="menue">
-     <li  class="first-menue">
-         <a href="#"> fsdf</a>
-         <ul class="sec">
-             <li >
-                 <a href="#">gfghfh</a>
-             </li>
-             <li>
-               <a href="#">gfghfh</a>
-             </li>
-         </ul>
-     </li>
-    <li  class="first-menue">
+    <li class="first-menue">
         <a href="#"> fsdf</a>
-        <ul class="sec" >
+        <ul class="sec">
+            <li>
+                <a href="#">gfghfh</a>
+            </li>
+            <li>
+                <a href="#">gfghfh</a>
+            </li>
+        </ul>
+    </li>
+    <li class="first-menue">
+        <a href="#"> fsdf</a>
+        <ul class="sec">
             <li>
                 <a href="#">gfghfh</a>
             </li>
@@ -75,7 +84,7 @@
             </li>
         </ul>
     </li>
-    <li  class="first-menue">
+    <li class="first-menue">
         <a href="#"> fsdf</a>
         <ul class="sec">
             <li>
@@ -90,44 +99,69 @@
     </li>
 </ul>
 <script>
-   /* var oul=document.getElementById("menue");//通过ul的id
+    /* var oul=document.getElementById("menue");//通过ul的id
 
-    var ali=oul.getElementsByTagName("li");//获取ui下的li 赋给ali  （ali变成一个数组)
-    for(var i=0;i<ali.length;i++)
-    {
-        if(ali[i].className=="first-menue")
-        {
-           ali[i].onmouseover=function()//当光标覆盖时,执行函数里面的代码
-           {
-            var aul=this.getElementsByTagName("ul");
-               var oma=aul[0];
-               oma.style.display="block";
-           }
-            ali[i].onmouseout=function()
-            {
-                var aul=this.getElementsByTagName("ul");
-                var oma=aul[0];
-                oma.style.display="none";
-            }
-        }
-    }
-*/
-    var aou=document.getElementById("menue");
-    var ali=aou.getElementsByTagName("li");
-    for(var i=0;i<ali.length;i++)
-    {
-        if(ali[i].className=="first-menue") {
-            ali[i].onmouseover = function () {
-                var aul = this.getElementsByTagName("ul");
-                var alu = aul[0];
-                alu.style.display = "block";
+     var ali=oul.getElementsByTagName("li");//获取ui下的li 赋给ali  （ali变成一个数组)
+     for(var i=0;i<ali.length;i++)
+     {
+     if(ali[i].className=="first-menue")
+     {
+     ali[i].onmouseover=function()//当光标覆盖时,执行函数里面的代码
+     {
+     var aul=this.getElementsByTagName("ul");
+     var oma=aul[0];
+     oma.style.display="block";
+     }
+     ali[i].onmouseout=function()
+     {
+     var aul=this.getElementsByTagName("ul");
+     var oma=aul[0];
+     oma.style.display="none";
+     }
+     }
+     }
+     */
+    /*var aou=document.getElementById("menue");
+     var ali=aou.getElementsByTagName("li");
+     for(var i=0;i<ali.length;i++)
+     {
+     if(ali[i].className=="first-menue") {
+     ali[i].onmouseover = function () {
+     var aul = this.getElementsByTagName("ul");
+     var alu = aul[0];
+     alu.style.display = "block";
 
-            }
-            ali[i].onmouseout = function () {
-                var aul = this.getElementsByTagName("ul");
-                var alu = aul[0];
-                alu.style.display = "none";
-            }
+     }
+     ali[i].onmouseout = function () {
+     var aul = this.getElementsByTagName("ul");
+     var alu = aul[0];
+     alu.style.display = "none";
+     }
+     }
+     }*/
+    /*var aul=document.getElementById("menue");
+     var ali=aul.children;
+     for(var i=0;i<ali.length;i++)
+     {
+     ali[i].onmouseover=function()
+     {
+     var alu=this.children[1];
+
+     alu.style.display="block";
+     }
+     ali[i].onmouseout=function()
+     {
+     var alu=this.children[1];
+     alu.style.display="none";
+     }
+
+     }*/
+    var oUl = document.getElementById("menue");
+    var ch = aul.children;
+    for (var i = 0; i < ch.length; i++) {
+        ch[i].onmouseover = function () {
+            var olU = this.children[1];
+            olU.style.display = "block";
         }
     }
 </script>
