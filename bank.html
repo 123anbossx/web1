@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #menu{
+            background-color: bisque;
+            width: 1600px;
+           font-size: large;
+             margin: auto;
+
+
+        }
+        #menu *{
+            font-size: 18px;
+            margin-top: 1px;
+
+        }
+        #conter{
+           background-color: beige;
+            width: 1600px;
+            height: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<div id="menu">
+ <h1 >
+          &nbsp;&nbsp; &nbsp; sumA <input type="text"value=""id="sumA">
+
+
+
+      &nbsp;&nbsp; &nbsp; sumB<input type="text"value=""id="sumB">
+        &nbsp;&nbsp; &nbsp; sumC<input type="text"value=""id="sumC">
+ </h1><br>
+  <h2>
+     maxprocess0A<input type="text"value=""id="process0A">
+     maxprocess0B<input type="text"value=""id="process0B">
+      maxprocess0C<input type="text"value=""id="process0C">
+</h2><br>
+  <h3 >
+      maxprocess1A<input type="text"value=""id="process1A">
+      maxprocess1B<input type="text"value=""id="process1B">
+      maxprocess1C<input type="text"value=""id="process1C">
+ </h3><br>
+ <h4>
+     maxprocess2A<input type="text"value=""id="process2A">
+     maxprocess2B<input type="text"value=""id="process2B">
+     maxprocess2C<input type="text"value=""id="process2C">
+</h4><br>
+  <h5>
+      maxprocess3A<input type="text"value=""id="process3A">
+      maxprocess3B<input type="text"value=""id="process3B">
+      maxprocess3C<input type="text"value=""id="process3C">
+  </h5><br>
+  <h6>
+      maxprocess4A<input type="text"value=""id="process4A">
+      maxprocess4B<input type="text"value=""id="process4B">
+      maxprocess4C<input type="text"value=""id="process4C">
+  </h6><br>
+  <h7>
+      Alloction0A<input type="text"value=""id="Alloction0A">
+      Alloction0B<input type="text"value=""id="Alloction0B">
+      Alloction0C<input type="text"value=""id="Alloction0C">
+  </h7><br><br>
+  <h8>
+      Alloction1A<input type="text"value=""id="Alloction1A">
+      Alloction1B<input type="text"value=""id="Alloction1B">
+      Alloction1C<input type="text"value=""id="Alloction1C">
+  </h8><br><br>
+  <h9>
+      Alloction2A<input type="text"value=""id="Alloction2A">
+      Alloction2B<input type="text"value=""id="Alloction2B">
+      Alloction2C<input type="text"value=""id="Alloction2C">
+  </h9><br><br>
+  <h10>
+      Alloction3A<input type="text"value=""id="Alloction3A">
+      Alloction3B<input type="text"value=""id="Alloction3B">
+      Alloction3C<input type="text"value=""id="Alloction3C">
+  </h10><br><br>
+  <h11>
+      Alloction4A<input type="text"value=""id="Alloction4A">
+      Alloction4B<input type="text"value=""id="Alloction4B">
+      Alloction4C<input type="text"value=""id="Alloction4C">
+  </h11><br><br>
+
+
+<input type="button"value="提交系统"id="button">
+    </div>
+<div id="conter"></div>
+<script>
+    var Oconter=document.getElementById("conter");
+  var button=document.getElementById("button");
+  var
+  button.onclick=function() {
+    var sumA = document.getElementById("sumA").value;
+    //alert(sumA);
+    var  sumB=document.getElementById("sumB").value;
+    //alert(sumB);
+    var  sumC=document.getElementById("sumC").value;
+   // alert(sumC);
+    var maxprocess0A=document.getElementById("process0A").value;
+   // alert(maxprocess0A);
+    var maxprocess0B=document.getElementById("process0B").value;
+    //alert(maxprocess0B);
+    var maxprocess0C=document.getElementById("process0C").value;
+    //alert(maxprocess0C);
+    var maxprocess1A=document.getElementById("process1A").value;
+   // alert(maxprocess1A);
+    var maxprocess1B=document.getElementById("process1B").value;
+   // alert(maxprocess1B);
+    var maxprocess1C=document.getElementById("process1C").value;
+  //  alert(maxprocess1C);
+    var maxprocess2A=document.getElementById("process2A").value;
+   // alert(maxprocess2A);
+    var maxprocess2B=document.getElementById("process2B").value;
+   // alert(maxprocess2B);
+    var maxprocess2C=document.getElementById("process2C").value;
+   // alert(maxprocess2C);
+    var maxprocess3A=document.getElementById("process3A").value;
+    //alert(maxprocess3A);
+    var maxprocess3B=document.getElementById("process3B").value;
+   // alert(maxprocess3B);
+    var maxprocess3C=document.getElementById("process3C").value;
+   // alert(maxprocess3C);
+    var maxprocess4A=document.getElementById("process4A").value;
+   // alert(maxprocess4A);
+    var maxprocess4B=document.getElementById("process4B").value;
+   // alert(maxprocess4B);
+    var maxprocess4C=document.getElementById("process4C").value;
+    //alert(maxprocess4C);
+    var Alloction0A=document.getElementById("Alloction0A").value;
+    //alert(Alloction0A);
+    var Alloction0B=document.getElementById("Alloction0B").value;
+   // alert(Alloction0B);
+    var Alloction0C=document.getElementById("Alloction0C").value;
+    //alert( Alloction0C);
+    var Alloction1A=document.getElementById("Alloction1A").value;
+   // alert(Alloction1A);
+    var Alloction1B=document.getElementById("Alloction1B").value;
+    //alert(Alloction1B);
+    var Alloction1C=document.getElementById("Alloction1C").value;
+    //alert( Alloction1C);
+    var Alloction2A=document.getElementById("Alloction2A").value;
+   // alert(Alloction2A);
+    var Alloction2B=document.getElementById("Alloction2B").value;
+   // alert(Alloction2B);
+    var Alloction2C=document.getElementById("Alloction2C").value;
+    //alert( Alloction2C);
+    var Alloction3A=document.getElementById("Alloction3A").value;
+   // alert(Alloction3A);
+    var Alloction3B=document.getElementById("Alloction3B").value;
+   // alert(Alloction3B);
+    var Alloction3C=document.getElementById("Alloction3C").value;
+   // alert( Alloction3C);
+    var Alloction4A=document.getElementById("Alloction4A").value;
+    //alert(Alloction4A);
+    var Alloction4B=document.getElementById("Alloction4B").value;
+   // alert(Alloction4B);
+    var Alloction4C=document.getElementById("Alloction4C").value;
+   // alert( Alloction4C);
+   var NeedP0A=maxprocess0A- Alloction0A;
+    var NeedP0B=maxprocess0B- Alloction0B;
+    var NeedP0C=maxprocess0C- Alloction0C;
+    var NeedP1A=maxprocess1A- Alloction1A;
+    var NeedP1B=maxprocess1B- Alloction1B;
+    var NeedP1C=maxprocess1C- Alloction1C;
+    var NeedP2A=maxprocess2A- Alloction2A;
+    var NeedP2B=maxprocess2B- Alloction2B;
+    var NeedP2C=maxprocess2C- Alloction2C;
+    var NeedP3A=maxprocess3A- Alloction3A;
+    var NeedP3B=maxprocess3B- Alloction3B;
+    var NeedP3C=maxprocess4C- Alloction4C;
+    var NeedP4A=maxprocess4A- Alloction4A;
+    var NeedP4B=maxprocess4B- Alloction4B;
+    var NeedP4C=maxprocess4C- Alloction4C;
+
+   var sum= parseInt(Alloction0A)+parseInt(Alloction1A)+parseInt(Alloction2A)+parseInt(Alloction3A)+parseInt(Alloction4A)
+    //var sum=Alloction0A+Alloction1A+Alloction2A+Alloction3A+Alloction4A;
+   var AvailableA=parseInt(sumA)-parseInt(sum);
+   // alert(AvailableA);
+    var sum1= parseInt(Alloction0B)+parseInt(Alloction1B)+parseInt(Alloction2B)+parseInt(Alloction3B)+parseInt(Alloction4B)
+    var AvailableB=parseInt(sumB)-parseInt(sum1);
+     //alert( AvailableB);
+    var sum2= parseInt(Alloction0C)+parseInt(Alloction1C)+parseInt(Alloction2C)+parseInt(Alloction3C)+parseInt(Alloction4C)
+    var AvailableC=parseInt(sumC)-parseInt(sum2);
+   // alert( AvailableC);
+        var n=0;
+    if(NeedP0A<=AvailableA&&NeedP0B<=AvailableB&&NeedP0C<=AvailableC)
+        {
+            Oconter.innerHTML=document.write("P0");
+            n=n+1;
+            AvailableA=parseInt(AvailableA)+parseInt(Alloction0A);
+            AvailableB=parseInt(AvailableB)+parseInt(Alloction0B);
+            AvailableC=parseInt(AvailableC)+parseInt(Alloction0C);
+        }else
+        if(NeedP1A<=AvailableA&&NeedP1B<=AvailableB&&NeedP1C<=AvailableC)
+           {
+               Oconter.innerHTML.document.write("P1");
+               n=n+1;
+               AvailableA=parseInt(AvailableA)+parseInt(Alloction1A);
+               AvailableB=parseInt(AvailableB)+parseInt(Alloction1B);
+               AvailableC=parseInt(AvailableC)+parseInt(Alloction1C);
+           }else
+        if(NeedP2A<=AvailableA&&NeedP2B<=AvailableB&&NeedP2C<=AvailableC)
+          {      Oconter.innerHTML.document.write("P2");
+              n=n+1;
+            AvailableA=parseInt(AvailableA)+parseInt(Alloction2A);
+            AvailableB=parseInt(AvailableB)+parseInt(Alloction2B);
+            AvailableC=parseInt(AvailableC)+parseInt(Alloction2C);
+         }else
+        if(NeedP3A<=AvailableA&&NeedP3B<=AvailableB&&NeedP3C<=AvailableC)
+        {   Oconter.innerHTML.document.write("P3");
+            n=n+1;
+            AvailableA=parseInt(AvailableA)+parseInt(Alloction3A);
+            AvailableB=parseInt(AvailableB)+parseInt(Alloction3B);
+            AvailableC=parseInt(AvailableC)+parseInt(Alloction3C);
+        }
+        else
+        if(NeedP4A<=AvailableA&&NeedP4B<=AvailableB&&NeedP4C<=AvailableC)
+        {       Oconter.innerHTML.document.write("P4");
+            n=n+1;
+            AvailableA=parseInt(AvailableA)+parseInt(Alloction4A);
+            AvailableB=parseInt(AvailableB)+parseInt(Alloction4B);
+            AvailableC=parseInt(AvailableC)+parseInt(Alloction4C);
+        }
+        if(n!=5)
+        {
+            Oconter.innerHTML.document.write("找不到安全序列");
+        }
+        /*var Nshuzusum=['Nshuzu0','Nshuzu1','Nshuzu2','Nshuzu3', 'Nshuzu4'];
+        var Nshuzu0=[NeedP0A, NeedP0B,NeedP0C];
+        var Nshuzu1=[NeedP1A,NeedP1B,NeedP1C];
+        var Nshuzu2=[NeedP2A,NeedP2B,NeedP2C];
+        var Nshuzu3=[NeedP3A,NeedP3B,NeedP3C];
+        var Nshuzu4=[NeedP4A,NeedP4B,NeedP4C];
+           var Nshuzu5=[AvailableA,AvailableB,AvailableC];
+               var Psum=[P0A,P1A,P2A,P3A,P4A];
+               var P0A=[Alloction0A,Alloction0B,Alloction0C];
+               var P1A=[Alloction1A,Alloction1B,Alloction1C];
+               var P2A=[Alloction2A,Alloction2B,Alloction2C];
+               var P3A=[Alloction3A,Alloction3B,Alloction3C];
+               var P4A=[Alloction4A,Alloction4B,Alloction4C];
+
+        for(var j=0;j<Nshuzusum.length;j++)
+    {
+         for(var i=0;i<3;i++)
+         {
+             if(Nshuzusum[j][i]<= Nshuzu5[i])
+             {
+                 Oconter.innerHTML=Nshuzusum[j];
+                 Nshuzu5[i]=parseInt(Nshuzu5[i])+parseInt(Psum[j][i]);
+             }
+         }
+    }
+    */
+
+}
+
+</script>
+
+</body>
+</html>
