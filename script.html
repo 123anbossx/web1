@@ -7,53 +7,53 @@
         *{margin: 0px;
             padding: 0px;;
         }
-        #menue li{
+        #menu li{
             color: blueviolet;
             display: block;
-            background-color: beige;
+           /* background-color: beige;*/
             width: 100px;
 
             text-align: center;
-            text-decoration: none;
+
             margin-left: 5px;
 
             line-height: 30px;
         }
 
-        #menue a{
+        #menu a{
             text-decoration: none;
             width: 100px;
             display: block;
         }
-        #menue .first-menue {
+        #menu .first-menue {
             background-color: red;
             /*float: left;*/
         }
-        #menue .sec li{
+        #menu .sec li{
             background-color: lime;
             display: block;
             margin-left:auto;
 
 
         }
-        #menue .sec li a{
+        #menu .sec li a{
 
             text-align: center;
 
         }
-        #menue .first-menue li{
+        #menu .first-menue li{
             border-bottom: 1px solid ;
         }
-        #menue .sec{
+        #menu .sec{
             display:none;
         }
 
     </style>
 </head>
 <body>
-<ul id="menue">
+<ul id="menu">
     <li  class="first-menue">
-        <a href="#"> fsdf</a>
+       <h3 >  fsdf</h3>
         <ul class="sec">
             <li >
                 <a href="#">gfghfh</a>
@@ -64,7 +64,7 @@
         </ul>
     </li>
     <li  class="first-menue">
-        <a href="#"> fsdf</a>
+        <h3>  fsdf</h3>
         <ul class="sec" >
             <li>
                 <a href="#">gfghfh</a>
@@ -76,7 +76,7 @@
         </ul>
     </li>
     <li  class="first-menue">
-        <a href="#"> fsdf</a>
+        <h3>  fsdf</h3>
         <ul class="sec">
             <li>
                 <a href="#">gfghfh</a>
@@ -90,7 +90,7 @@
     </li>
 </ul>
 <script>
-    var aou=document.getElementById("menue");
+   /* var aou=document.getElementById("menue");
     var  ali=aou.getElementsByTagName("li");
     for(var i=0;i<ali.length;i++)
     {
@@ -110,7 +110,98 @@
 
         }
 
+    }*/
+   /* var oUl=document.getElementById("menue");
+    var oli=oUl.children
+
+   for(var i=0;i<oli.length;i++){
+    oli[i].onclick=function()
+    {
+           var oLl=this.children
+        if(oLl[1].style.display=="block")
+        oLl[1].style.display="none";
+        else
+        oLl[1].style.display="block";
+
     }
+   }*/
+   /* var oLi=document.getElementById("menue");
+    var aLi=oLi.getElementsByTagName("h3");
+    for(var i=0;i<aLi.length;i++)
+    {
+
+        aLi[i].onclick=function(){
+
+            if( next(this).style.display=="block")
+            {
+                next(this).style.display="none";
+            }
+            else
+            {
+                next(this).style.display="block";
+            }
+        }
+    }
+    function next(event)
+    {do{
+        event=event.nextSibling;
+
+    }
+    while(event && event.nodeType !=1)
+        return event;
+    }*/
+   /* var oLi=document.getElementById("menue");(未完成）
+    var aLi=oLi.getElementsByTagName("h3");
+   var  aLi1=oLi.getElementsByTagName("ul");
+    for(var i=0;i<aLi.length;i++)
+    {
+        aLi[i].onclick=function()
+        {
+            aLi[i].parentNode.children[1].style.display="block";
+        }
+    }*/
+   var oLi=document.getElementById('menu');
+   var aLi=oLi.getElementsByTagName('h3');
+   var  aLia=oLi.getElementsByTagName('ul');
+      for(var i=0; i<aLi.length;i++)
+      {
+          aLi[i].index=i;
+          aLi[i].bShow=false;
+          aLi[i].onclick=function(){
+
+              if(this.bShow)
+              {
+                aLia[this.index].style.display="none";
+              }else
+              {
+                  aLia[this.index].style.display="block";
+              }
+              this.bShow=!this.bShow;
+          }
+          aLi[i].onselectstart=function(){
+              return false;
+          }
+
+      }
+   /*for(var i=0;i<aLi.length;i++) {
+        aLi[i].index = i;
+        aLi[i].bShow = false;
+        aLi[i].onclick = function () {
+            var aLiab = aLia[this.index];
+            if (this.bShow){
+                aLiab.style.display = 'none';
+            }
+            else {
+                aLiab.style.display = 'block';
+            }
+            this.bShow = !this.bShow;
+        }
+        aLi[i].onselectstart = function () {
+            return false;
+        }
+
+    }*/
+
 </script>
 </body>
 </html>
