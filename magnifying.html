@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            border: 0;
+        }
+        #div1{
+            width:400px;
+            height: 400px;
+            background-color: deepskyblue;
+            float: left;
+            position: relative;
+        }
+        #div2{
+          background-color: lime;
+            width: 400px;
+            height: 400px;
+            float: left;
+            overflow: hidden;
+            display: none;
+            position: relative;
+        }
+        #div3{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            filter: alpha(opacity=50);
+            opacity:0.5;
+            position: absolute;
+            display: none;
+        }
+        #small-picture{
+
+        }
+        #big-pic{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    <div id="div3"></div>
+    <img src="img/6.jpg"alt=""id="small-picture">
+
+</div>
+<div id="div2">
+<img src="img/5.jpg"alt=""id="big-pic">
+</div>
+<script>
+    var osmallimg=document.getElementById("div1");
+    var odrag=document.getElementById("div3");
+    var obigimg=document.getElementById("div2");
+    var  obigpic=document.getElementById("big-pic");
+    osmallimg.onmouseover=function(){
+        odrag.style.display="block";
+        obigimg.style.display="block";
+    }
+    osmallimg.onmouseout=function(){
+        odrag.style.display="none";
+        obigimg.style.display="none";
+    }
+    osmallimg.onmousemove=function(e){
+        e=e||window.event;
+     var top= e.clientY-odrag.offsetHeight/2;
+        var left= e.clientX-odrag.offsetWidth/2;
+        if(top<0)
+        {
+            top=0;
+        }
+        if(left<0)
+        {
+            left=0;
+        }
+        if(top>osmallimg.offsetHeight-odrag.offsetHeight)
+        {
+            top=osmallimg.offsetHeight-odrag.offsetHeight;
+        }
+        if(left>osmallimg.offsetWidth-odrag.offsetWidth)
+        {
+            left=osmallimg.offsetWidth-odrag.offsetWidth;
+        }
+        var dikY=top/(osmallimg.offsetHeight-odrag.offsetHeight);
+        var dikX= left/(osmallimg.offsetWidth-odrag.offsetWidth);
+        console.log( dikY);
+        console.log( dikX);
+         odrag.style.top=top +"px";
+        odrag.style.left=left +"px";
+        obigpic.style.top=-dikY*(obigpic.offsetHeight-obigimg.offsetHeight)+"px";
+        obigpic.style.left=-dikX*(obigpic.offsetWidth-obigimg.offsetWidth)+"px";
+    }
+</script>
+</body>
+</html>
