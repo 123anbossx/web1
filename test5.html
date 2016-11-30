@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #contener {
+            width: 400px;
+            height: 450px;
+            overflow: hidden;
+            position: relative;
+            left: 700px;
+            top: 50px;
+        }
+
+        #big {
+            width: 2400px;
+            position: absolute;
+        }
+
+        #big img {
+            position: absolute;
+        }
+
+        #small {
+            width: 790px;
+            height: 125px;
+
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+
+        }
+
+        #small img {
+            width: 120px;
+            height: 125px;
+            float: left;
+            margin-left: 10px;
+            cursor: pointer;
+
+        }
+
+        #left {
+            width: 200px;
+            height: 320px;
+
+            z-index: 999999;
+            position: absolute;
+
+        }
+
+        #right {
+            width: 200px;
+            height: 320px;
+
+            z-index: 999999;
+            position: absolute;
+            right: 0px;
+        }
+
+        #left-bit {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 130px;
+            background: url("img1/btn.gif");
+            margin-left: 10px;
+            display: none;
+        }
+
+        #right-bit {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            right: 0px;
+            top: 130px;
+            background: url("img1/btn.gif") bottom;
+            margin-right: 10px;
+            display: none;
+        }
+
+        #text {
+            width: 400px;
+            height: 30px;
+            background-color: #cccccc;
+            position: absolute;
+            top: 290px;
+            opacity: 0.5;
+            z-index: 999998;
+        }
+
+        #text-left {
+            float: left;
+            margin-left: 10px;
+            line-height: 30px;
+        }
+
+        #fenmu {
+            float: right;
+            margin-right: 10px;
+            line-height: 30px;
+        }
+
+        #text-right {
+            float: right;
+
+            line-height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="contener">
+
+    <div id="big">
+        <img src="img1/1.jpg" style="z-index: 1">
+        <img src="img1/2.jpg">
+        <img src="img1/3.jpg">
+        <img src="img1/4.jpg">
+        <img src="img1/5.jpg">
+        <img src="img1/6.jpg">
+    </div>
+    <div id="left">
+        <span id="left-bit"></span>
+    </div>
+    <div id="right">
+        <span id="right-bit"></span>
+    </div>
+    <div id="text">
+        <span id="text-left">111</span>
+        <span id="fenmu">/6</span>
+        <span id="text-right">1</span>
+
+    </div>
+    <div id="small">
+        <img src="img1/1.jpg" style="opacity:1">
+        <img src="img1/2.jpg">
+        <img src="img1/3.jpg">
+        <img src="img1/4.jpg">
+        <img src="img1/5.jpg">
+        <img src="img1/6.jpg">
+    </div>
+</div>
+
+<script src="jslib.js"></script>
+<script>
+    var ocontenter = document.getElementById("contenter");
+    var obig = document.getElementById("big");
+    var osmall = document.getElementById("small");
+    var oleft = document.getElementById("left");
+    var oright = document.getElementById("right");
+    var obitleft = document.getElementById("left-bit");
+    var obitright = document.getElementById("right-bit");
+    var aimg = osmall.getElementsByTagName("img");
+    var bimg = obig.getElementsByTagName("img");
+    var otextleft = document.getElementById("text-left");
+    var otextright = document.getElementById("text-right");
+
+    var index = 0;
+    var lzindex = 1;
+    var text = [111, 222, 333, 4444, 555, 666];
+    var text1 = [1, 2, 3, 4, 5, 6]
+    oleft.onmouseover = function () {
+        obitleft.style.display = "block";
+    }
+    oleft.onmouseout = function () {
+        obitleft.style.display = "none";
+    }
+    oright.onmouseover = function () {
+        if (obitright.style.display = "none") {
+            obitright.style.display = "block";
+        }
+        oright.onmouseout = function () {
+            obitright.style.display = "none";
+        }
+    }
+    for (var i = 0; i < aimg.length; i++) {
+        aimg[i].index = i;
+        aimg[i].style.opacity = 0.5;
+        aimg[i].onmouseover = function () {
+            this.style.opacity = 1;
+        }
+        aimg[i].onmouseout = function () {
+
+            this.style.opacity = 0.5;
+        }
+
+    }
+
+    obitleft.onclick = obitright.onclick = function () {
+        if (this == obitleft) {
+            index--;
+            if (index == -1) {
+                index = aimg.length - 1;
+            }
+            otextleft.innerHTML = text[index];
+            otextright.innerHTML = text1[index];
+            bimg[index].style.zIndex = ++lzindex;
+            bimg[index].style.height = 0;
+            bimg[index].style.width=400+"px"
+            animate(bimg[index], {height: 320})
+            for (var i = 0; i < aimg.length; i++) {
+                aimg[i].style.opacity = 0.5;
+            }
+           aimg[index].style.opacity = 1;
+            if (index == 0) {
+                animate(osmall, {left: 0});
+                // osmall.style.left=0;
+            } else if (index == aimg.length - 1) {
+                animate(osmall, {left: -(index - 2) * (aimg[0].offsetWidth + 10)});
+                //osmall.style.left=+"px";
+            }
+            else {
+                animate(osmall, {left: -(index - 1) * (aimg[0].offsetWidth + 10)});
+                //osmall.style.left=-(this.index-1)*(aimg[0].offsetWidth+10)+"px";
+            }
+
+        }
+        else {
+            index++;
+            if (index == bimg.length) {
+                index = 0;
+            }
+            otextleft.innerHTML = text[index];
+            otextright.innerHTML = text1[index];
+            bimg[index].style.zIndex = ++lzindex;
+            bimg[index].style.height = 0;
+            bimg[index].style.width=400+'px';
+            animate(bimg[index], {height: 320})
+            for (var i = 0; i < aimg.length; i++) {
+                aimg[i].style.opacity = 0.5;
+            }
+            aimg[index].style.opacity = 1;
+
+            if (index == 0) {
+                animate(osmall, {left: 0});
+                // osmall.style.left=0;
+            } else if (index == aimg.length - 1) {
+                animate(osmall, {left: -(index - 2) * (aimg[0].offsetWidth + 10)});
+                //osmall.style.left=+"px";
+            }
+            else {
+                animate(osmall, {left: -(index - 1) * (aimg[0].offsetWidth + 10)});
+                //osmall.style.left=-(this.index-1)*(aimg[0].offsetWidth+10)+"px";
+            }
+        }
+    }
+    for (var j = 0; j < aimg.length; j++) {
+        aimg[j].index = j;
+        aimg[j].onclick = function () {
+
+            if (this.index == 0) {
+                animate(osmall, {left: 0});
+                // osmall.style.left=0;
+            } else if (this.index == aimg.length - 1) {
+                animate(osmall, {left: -(this.index - 2) * (aimg[0].offsetWidth + 10)});
+                //osmall.style.left=+"px";
+            }
+            else {
+                animate(osmall, {left: -(this.index - 1) * (aimg[0].offsetWidth + 10)});
+                //osmall.style.left=-(this.index-1)*(aimg[0].offsetWidth+10)+"px";
+            }
+            otextleft.innerHTML = text[this.index];
+            otextright.innerHTML = text1[this.index];
+            bimg[this.index].style.zIndex = ++lzindex;
+            bimg[this.index].style.height = 0;
+            animate(bimg[this.index], {height: 320});
+
+        }
+    }
+       time=setInterval(function(){
+        obitright.onclick();
+       },1000);
+       osmall.onmouseover=obig.onmouseover=function(){
+           clearInterval(time)
+       }
+    osmall.onmouseout=obig.onmouseout=function(){
+        time=setInterval(function(){
+            obitright.onclick();
+        },1000);
+    }
+</script>
+</body>
+</html>
