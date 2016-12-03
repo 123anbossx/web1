@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8" />
+    <title>用户界面(UI)元素状态伪类选择符 E:enabled_CSS参考手册_web前端开发参考手册系列</title>
+    <meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+    <style>
+       *{
+           margin: 0px;
+           padding: 0px;
+       }
+        .circle{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            border: 10px solid;
+            border-radius: 50%;
+        }
+        .bule{
+            border-color: blue;
+            left: 0px;
+        }
+       .bule::after{
+           content: "";
+           display: block;
+
+           width: 200px;
+           height: 200px;
+           border: 10px solid blue;
+           border-radius: 50%;
+           position: relative;
+           left: -10px;
+           top: -10px;
+           z-index: 1;
+           border-bottom-color: transparent;
+            }
+        .yellow{
+            left: 230px;
+            border-color: yellow;
+        }
+        .yellow::after{
+            content: "";
+            display: block;
+            width: 200px;
+            height: 200px;
+            border: 10px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left: -10px;
+            top: -10px;
+            z-index: 1;
+            border-left-color: transparent;
+        }
+        .red{
+            left: 460px;
+            border-color: red;
+        }
+       .red::after{
+           content: "";
+           display: block;
+
+           width: 200px;
+           height: 200px;
+           border: 10px solid red;
+           border-radius: 50%;
+           position: relative;
+           left: -10px;
+           top: -10px;
+           z-index: 2;
+           border-left-color: transparent;
+       }
+        .green{
+            left: 100px;
+            border-color: green;
+            top: 120px;
+        }
+       .green::after{
+           content: "";
+           display: block;
+
+           width: 200px;
+           height: 200px;
+           border: 10px solid green;
+           border-radius: 50%;
+           position: relative;
+           left: -10px;
+           top: -10px;
+       }
+        .back{
+            left:330px;
+            top:120px ;
+        }
+       .back::after{
+           content: "";
+           display: block;
+
+           width: 200px;
+           height: 200px;
+           border: 10px solid ;
+           border-radius: 50%;
+           position: relative;
+           left: -10px;
+           top: -10px;
+           z-index: 1;
+           border-top-color: transparent;
+       }
+    </style>
+</head>
+<body>
+<div class="circle bule"></div>
+<div class="circle yellow"></div>
+<div class="circle red"></div>
+<div class="circle green"></div>
+<div class="circle back"></div>
+</body>
+</html>
