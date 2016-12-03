@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #contenter {
+            width: 660px;
+
+        }
+
+        #contenter img {
+            width: 200px;
+            height: 150px;
+            float: left;
+            margin: 10px;
+        }
+
+        #contenter img.selected {
+            border: 1px dashed;
+            color: aqua;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<div id="contenter">
+    <img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <img src="images/3.jpg">
+    <img src="images/4.jpg">
+    <img src="images/5.jpg">
+    <img src="images/6.jpg">
+    <img src="images/7.jpg">
+    <img src="images/8.jpg">
+    <img src="images/9.jpg">
+</div>
+<script src="jslib.js"></script>
+<script>
+    var ocontenter = document.getElementById("contenter");
+    var aImag = ocontenter.getElementsByTagName("img");
+
+    var izindex = 1;
+    var nearest1;
+    var collide = [];
+    for (var i = aImag.length - 1; i >= 0; i--) {
+        aImag[i].pos = {
+            left: aImag[i].offsetLeft,
+            top: aImag[i].offsetTop
+        }
+        aImag[i].style.left = aImag[i].offsetLeft + "px";
+        aImag[i].style.top = aImag[i].offsetTop + "px";
+        aImag[i].style.position = "absolute";
+        drag(aImag[i]);
+
+    }
+    function drag(elem) {
+
+        elem.onmousedown = function (e) {
+            elem.style.zIndex = izindex++;
+            e = e || window.event;
+            var disx = e.clientX - elem.offsetLeft;
+            var disy = e.clientY - elem.offsetTop;
+            document.onmousemove = function (e){
+                collide = [];
+                e = e || window.event;
+                var left = e.clientX - disx;
+                var top = e.clientY - disy;
+                elem.style.left = left + "px";
+                elem.style.top = top + "px";
+                for (var j = 0; j < aImag.length; j++) {
+                    aImag[j].className = "";
+                    if (aImag[j] == elem) {
+                        continue;
+                    }
+                    var acheck = check(elem, aImag[j]);
+                    if (acheck) {
+                        collide.push(aImag[j]);
+
+                        console.log(collide.length);
+                    }
+                }
+                if (collide.length > 0) {
+                    nearest1 = nearest(elem);
+                    console.log(nearest1);
+                    nearest1.className = "selected";
+                }
+                return false;
+            }
+            elem.onmouseup = function (e) {
+                e = e || window.event;
+                document.onmousemove = "";
+                if (nearest1){
+                    animate(elem, nearest1.pos);
+                    animate(nearest1, elem.pos);
+                    var change=elem.pos;
+                    elem.pos=nearest1.pos;
+                    nearest1.pos=change;
+                    nearest1.className=""
+                    nearest1=null;
+                }else
+                {
+                    animate(elem,elem.pos)
+                }
+            }
+        }
+        function check(elem, target) {
+            var elemL = elem.offsetLeft + elem.offsetWidth;
+            var targetL = target.offsetLeft;
+            var elemT = elem.offsetTop + elem.offsetHeight;
+            var targetT = target.offsetTop;
+            var elemR = elem.offsetLeft;
+            var targetR = target.offsetLeft + target.offsetWidth;
+            var elemB = elem.offsetTop;
+            var targetB = target.offsetTop + target.offsetHeight;
+            if (elemL < targetL || elemT < targetT || elemR > targetR || elemB > targetB) {
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+        function nearest(elem) {
+            var bijiao=9999999999;
+            var bijiaoid;
+            for (var i = 0; i < collide.length; i++) {
+                var x = collide[i].offsetLeft - elem.offsetLeft;
+                var y = elem.offsetTop - collide[i].offsetTop;
+                var sum = Math.pow(x, 2) + Math.pow(y, 2);
+                if (sum < bijiao) {
+                    bijiao = sum;
+                    bijiaoid = i;
+                }
+            }
+            return collide[bijiaoid];
+        }
+    }
+
+</script>
+</body>
+</html>
