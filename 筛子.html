@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+            -webkit-perspective: 600px;
+
+        }
+        #contenter{
+            width: 200px;
+            height: 200px;
+            margin: 200px auto;
+            -webkit-transform-style: preserve-3d;
+            -webkit-animation: rotateCube 2s linear infinite;
+        }
+        @-webkit-keyframes rotateCube {
+            from{
+
+            }
+            to{
+                -webkit-transform: rotatex(-360deg);
+            }
+        }
+        .picture{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            position: absolute;
+            font-size: 40px;
+            background: rgba(255,255,255,0.6);
+            border-radius: 50%;
+
+        }
+        .sex{
+            -webkit-transform: rotateX(90deg) translateZ(100px);
+        }
+        .five{
+            -webkit-transform: rotateY(90deg) translateZ(100px);
+        }
+        .four{
+            -webkit-transform: rotateY(180deg) translateZ(100px);
+        }
+        .three{
+            -webkit-transform: rotateY(-90deg) translateZ(100px);
+        }
+        .one{
+            -webkit-transform: rotateX(-90deg) translateZ(100px);
+        }
+        .two{
+            -webkit-transform: translateZ(100px);
+        }
+
+    </style>
+</head>
+<body>
+<div id="contenter">
+    <div class="picture one">1</div>
+    <div class="picture two">2</div>
+    <div class="picture three">3</div>
+    <div class="picture four">5</div>
+    <div class="picture five">4</div>
+    <div class="picture sex">6</div>
+</div>
+</body>
+</html>
