@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #080808;
+        }
+        #static{
+            width: 1000px;
+            height: 600px;
+            background-color: #cccccc;
+            margin: 50px auto;
+            position: relative;
+            -webkit-perspective: 1000px;
+            -webkit-perspective-origin: 50% -10px;
+        }
+        #continer{
+            width: 128px;
+            height: 100px;
+            position: absolute;
+            left:436px;
+            top: 150px;
+            -webkit-transform-style: preserve-3d;
+            -webkit-transition: transform 1s ease-in-out;
+        /*-webkit-animation: rotatepicture 2s linear infinite;*/
+        }
+        /*@-webkit-keyframes rotatepicture {*/
+            /*from{}*/
+        /*to{*/
+          /*-webkit-transform: rotatey(-360deg);*/
+
+        /*}*/
+        /*}*/
+        #continer img{
+            width: 228px;
+            height: 200px;
+           position: absolute;
+            -webkit-transition: transform 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+<div id="static">
+    <div id="continer">
+        <!--<img src="ximg/1.jpg">-->
+        <!--<img src="ximg/2.jpg">-->
+        <!--<img src="ximg/3.jpg">-->
+        <!--<img src="ximg/4.jpg">-->
+        <!--<img src="ximg/5.jpg">-->
+        <!--<img src="ximg/6.jpg">-->
+        <!--<img src="ximg/7.jpg">-->
+        <!--<img src="ximg/8.jpg">-->
+        <!--<img src="ximg/9.jpg">-->
+    </div>
+</div>
+<script>
+    var ocontainer=document.getElementById("continer");
+
+    //var translatedisy=228/2/Math.tan(20*Math.PI/180)+20;
+//    for(var i=0;i<aImg.length;i++){
+//       aImg[i].style.WebkitTransform='rotateY('+-i*40+'deg) translatez('+translatedisy+'px)';
+//    }
+//    var j=8;
+//    var time=setInterval(function(){
+//
+//        if(j==0){
+//            clearInterval(time)
+//        }
+//        aImg[j].style.WebkitTransform='rotateY('+-j*40+'deg) translatez('+translatedisy+'px)';
+//            j--;
+//            },100)
+
+      var a=0;
+    for(var j=0;j<9;j++){
+        var oimg=new Image();
+        oimg.onload=function(){
+            a++;
+            if(a==8){
+                for(var i=0;i<aImg.length;i++){
+                    (function(index){
+                        setTimeout(function(){
+                            aImg[index].style.WebkitTransform='rotateY('+-index*40+'deg) translatez('+translatedisy+'px)';
+                        },(9-index)*100)
+                    })(i);
+                }
+            }
+        }
+        oimg.src='ximg/'+(j+1)+'.jpg';
+        ocontainer.appendChild(oimg);
+
+    }
+    var aImg=ocontainer.getElementsByTagName("img");
+    var translatedisy=aImg[0].offsetWidth/2/Math.tan(20*Math.PI/180)+20;
+    var index=0;
+    ocontainer.onclick=function(){
+        index++;
+        this.style.WebkitTransform='rotatey('+(-index*40)+'deg)';
+    }
+</script>
+</body>
+</html>
