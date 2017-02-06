@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet">
+    <link href="Apple/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="contenter">
+<div id="nav">
+<div id="log">
+
+         <li id="open"> <a href="#nav"class="openbutton"><i  class="icon icon-align-justify"></i></a></li>
+         <li id="close"><a href="#" class="close button"><i class="icon-ban-circle"></i></a></li>
+         <li id="apple"><a href="#"><i icon class="icon-apple"></i></a></li>
+</div>
+    <ul id="jianjie">
+        <li><i icon class="icon-apple"></i></li>
+    <li class="write">Mak</li>
+    <li class="write">ipad</li>
+    <li class="write">iphone</li>
+    <li class="write">Watch</li>
+    <li  class="write">TV</li>
+    <li class="write">Music</li>
+    <li class="write">Support</li>
+        <li class="write"><i icon class="icon-search"></i></li>
+    </ul>
+</div>
+    <div id="clock">
+        <li><a href="#nav1"class="open"><i icon class="icon-lock"></i></a></li>
+
+    </div>
+<div id="nav1">
+        <li><i icon class="icon-lock"></i>your Bad is empty</li>
+        <li><i icon class="icon-bitcoin"></i>Bag</li>
+        <li><i icon class="icon-beaker"></i>vfavority</li>
+        <li><i icon class="icon-angle-down"></i>Orders</li>
+        <li><i icon class="icon-align-justify"></i>occount</li>
+        <li><i icon class="icon-thumbs-down" ></i>sign in</li>
+</div>
+   <li id="oli"><a href="#"class="close"><i icon class="icon-lock"></i></a></li>
+    <div id="bigimg">
+        <ul id="bul">
+           <img src="Apple/big/iphone_alt_large.jpg"class="black">
+           <img src="Apple/big/watch_alt_large.jpg"class="white">
+           <img src="Apple/big/macbookpro_xlarge.jpg"class="whach">
+            </ul>
+        <ul id="four">
+            <li id="one"></li>
+            <li id="two"></li>
+            <li id="three"></li>
+        </ul>
+    </div>
+    <div id="smallimg">
+        <ul>
+            <img src="Apple/big/airpods_xlarge.jpg"class="ear">
+            <img src="Apple/big/apple_tv_xlarge.jpg"class="white">
+            <img src="Apple/big/ipad_pro_xlarge.jpg"class="whach">
+            <img src="Apple/big/made_by_apple_xlarge.jpg"class="whach">
+        </ul>
+
+    </div>
+    <div id="bottom"></div>
+</div>
+<script src="jslib.js"></script>
+<script>
+    var ofour=document.getElementById("four");
+    var aLi=ofour.children;
+    console.log(aLi.length);
+    var oul=document.getElementById("bul");
+    var aImg=oul.children;
+    console.log(aImg.length);
+    var n=0;
+    var oBigimg=document.getElementById("bigimg")
+
+
+    for(var i=0;i<aLi.length;i++){
+        aLi[i].index=i;
+        aLi[i].onmouseover=function(){
+            change(this.index);
+    }}
+    timer=setInterval(function(){
+       aLi[n].onmouseover();
+        n++;
+        if(n>2){
+            n=0;
+        }
+
+
+    },3000)
+        function change(index){
+//            for(var i=0;i<aLi.length;i++)
+//            {
+//                aLi[i].className="";
+//                // aImag[i].className="";
+//            }
+//            aLi[index].className="selected";
+            // aImag[index].className="selected";
+            animate(oul,{left: -index*aImg[0].offsetWidth});
+            // aPicture.style.left=-aImag[0].offsetWidth*index+"px";
+        }
+
+</script>
+</body>
+</html>
