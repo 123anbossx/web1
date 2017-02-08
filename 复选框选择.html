@@ -33,16 +33,16 @@
 //                alert(str);
 //            });
             $('#CheckedAll').on('click',function(){
-                $('[type=checkbox]').attr('checked',true);
+                $('[type=checkbox]').prop('checked',true);
             })
             $('#CheckedNo').on('click',function(){
-                $('[type=checkbox]').attr('checked',false);
+                $('[type=checkbox]').prop('checked',false);
             })
             $('#CheckedRev').on('click',function(){
                 $('[type=checkbox]').each(function(){
-                    this.checked=!this.checked;
-                  //$('this').attr('checked',!$('this').attr('checked'))
-//                   console.log($s);
+                 this.checked=!this.checked;
+                 //$(this).prop('checked',!$(this).prop('checked'));
+
                 });
             })
             $('#send').on('click',function(){
