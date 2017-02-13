@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            list-style: none;
+            margin: 0;
+            padding: 0px;
+        }
+        #header{
+            width: 100%;
+            height: 120px;
+            background-color: #CCCCCC;
+            position: relative;
+        }
+        #nav{
+            width: 1049px;
+            height: 50px;
+            background-color: #080808;
+           margin-left: -650px;
+          position: absolute;
+            bottom: 0px;
+            left: 50%
+        }
+        #nav ul li {
+            color: white;
+            float: left;
+            margin-left: 15px;
+            line-height: 50px;
+        }
+        #seach{
+            margin-top: 15px;
+            position: absolute;
+            left: 40%;
+            padding-top: 7px;
+            padding-left: 20px;
+           font-size: large;
+            /*margin-left: -100px;*/
+        }
+        #logo{
+            position: absolute;
+            left: 50%;
+            margin-left: -650px;
+            top: 5px;
+        }
+        .skine{
+            width: 20px;
+            height: 20px;
+            float: left;
+            background-color: #080808;
+            margin-left: 10px;
+        }
+        #color{
+            position: absolute;
+            right: 2%;
+           top: 20px;
+        }
+        #black{
+            background-color: black;
+        }
+        #blue{
+           background-color: blue;
+        }
+        #orange{
+            background-color: orange;
+
+        }
+
+        #purple{
+           background-color: purple;
+
+        }
+        #red{
+            background-color: red;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #left{
+            /*background-color: deepskyblue;*/
+            width: 250px;
+            height: 650px;
+            position: absolute;
+            left: 50%;
+            margin-left: -650px;
+            margin-top: 10px;
+            border: solid 1px;
+        }
+        #leftcolor1{
+            width: 100%;
+            color: white;
+            background-color: #080808;
+            height: 40px;
+            line-height: 40px;
+        }
+        #leftcolor{
+            margin-left: 15px;
+        }
+        .slide{
+            width: 100%;
+            border-bottom: solid #CCCCCC;
+            height: 40px;
+        }
+        .tuijian{
+            margin-left: 15px;
+          font-weight: 800;
+            line-height: 40px;
+        }
+        .kk{
+            margin-top: 7px;
+        }
+     #right{
+         width: 800px;
+         height: 650px;
+         background-color: #B1D410;
+         position: relative;
+         left: 50%;
+         margin-left: -400px;
+         margin-top: 10px;
+        border-left: solid 1px;
+     }
+        #img{
+            margin-left: 10px;
+            position: relative;
+        }
+        #img-box img{
+               position: absolute;
+        }
+        #fuxuan{
+            position: absolute;
+           bottom: -320px;
+
+        }
+        .xuanxiang{
+            width: 109px;
+            height: 50px;
+         background-color: #080808;
+            float: left;
+            margin-left: 1px;
+            opacity: 0.5;
+            color: white;
+        }
+        .selected{
+            background-color: #008CD7;
+            opacity: 1;
+        }
+        #small-img{
+            position: absolute;
+            right: 0;
+            -webkit-transition: transform 1s ease-in-out;
+            overflow: hidden;
+        }
+       #small{
+           overflow: hidden;
+           width: 230px;
+           height: 179px;
+           position: absolute;
+           right: 0;
+       }
+        #dongtai{
+            width: 230px;
+            height: 132px;
+
+            position: absolute;
+            right: 0;
+            top: 189px;
+        }
+        #zuixin{
+            font-weight: 800;
+            border-bottom: solid #C4C4C4;
+        }
+        #zuixin li{
+            margin-left: 10px;
+        }
+        #huodong{
+            border: solid 1px #C4C4C4;
+        }
+        #huodong li{
+            font-size: 15px;
+            margin-top: 4px;
+        }
+        #bottom{
+            width: 801px;
+            height: 50px;
+            position: relative;
+
+            top: 321px;
+        }
+        #bottom ul{
+            float: left;
+        }
+        #pd{
+            font-weight:800 ;
+            height: 50px;
+            width: 100px;
+        }
+        #pd li{
+            position: absolute;
+            bottom: 0px;
+            margin-left: 10px;
+        }
+        #select{
+            height: 20px;
+            width: 220px;
+            position: absolute;
+            bottom: 0px;
+            right: 27px;
+        }
+
+        #select li{
+            float: left;
+            height: 20px;
+            width: 40px;
+            background-color: #AAAAAA;
+            margin-left: 15px;
+        }
+        #select li.color{
+            background-color: #BE46D8;
+
+        }
+        #lbimg{
+            width: 774px;
+            height: 220px;
+            overflow: hidden;
+            position:absolute;
+            bottom: 10px;
+        }
+        #lbimgul{
+            width: 3100px;
+            position: absolute;
+            bottom: 40px;
+        }
+        #lbimgul > li{
+            float: left;
+            margin-left: 10.5px;
+        }
+        .jieshi{
+            width: 183px;
+        }
+          .jieshi li{
+              width: 100%;
+           background-color: #AAAAAA;
+             text-align: center;
+             margin-right: 10px;
+              height: 30px;
+              line-height: 30px;
+              opacity: 0.8;
+        }
+    </style>
+    <script src="jquery-1.12.4.js"></script>
+    <script src="jslib.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            $('#fuxuan li').on('click',function(){
+                $(this).addClass('selected').siblings().removeClass('selected')
+                var index=$(this).index()+1;
+               $('#img-box img:nth-child('+index+')').fadeIn(800).siblings().hide();
+                $('#select li').on('click',function(){
+                    $(this).addClass('color').siblings().removeClass('color')
+                })
+
+            })
+            var oclick=$('#fuxuan li');
+
+            function aa(){
+                var time=-1;
+                this.start=function(){
+                    var selec=oclick.index(oclick.filter("#on"));
+
+
+                    time=setInterval(function(){
+                        if(selec==oclick.length)
+                        {
+                            selec=0;
+                        }
+                        $(oclick[selec++]).trigger("click")
+                    },2000)
+                    this.pause=function(){
+                        clearInterval(time)
+                    }
+                }
+            }
+            var aa = new aa();
+            aa.start();
+            oclick.hover(function(){
+                aa.pause();
+            },function(){
+                aa.start();
+            })
+            var Div=$('#color div')
+            Div.on('click',function(){
+            var ID=$(this).attr('id');
+                $('#nav').css('background-color',ID)
+                $('#leftcolor1').css('background-color',ID);
+            })
+
+        })
+    </script>
+</head>
+<body>
+<div id="header">
+    <div id="color">
+        <div id="black"class="skine"></div>
+        <div id=" purple"class="skine"></div>
+        <div id="red"class="skine"></div>
+        <div id="blue"class="skine"></div>
+        <div id="orange"class="skine"></div>
+        <div id="yellow"class="skine"></div>
+    </div>
+    <div id="nav">
+        <ul>
+            <li>首页</li>
+            <li>品牌</li>
+            <li>男装</li>
+            <li>女装</li>
+            <li>鞋包配饰</li>
+        </ul>
+    </div>
+    <input type="search"id="seach"placeholder="请输入商品名称">
+    <div id="logo">
+        <img src="images/logo.gif">
+    </div>
+</div>
+<div id="left">
+    <ul id="leftcolor1">
+        <li id="leftcolor">商品分类</li>
+    </ul>
+<ul id="pingpai"class="slide">
+    <li class="tuijian">推荐品牌</li>
+</ul>
+    <ul class="pingpai">
+        <li class="kk">耐克<img src="images/hot.gif"> &nbsp;&nbsp;&nbsp;&nbsp;阿迪达斯</li>
+        <li class="kk">芙蓉妮 &nbsp;&nbsp;&nbsp; &nbsp;李宁</li>
+        <li class="kk">安踏 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 奥康</li>
+        <li class="kk">骆驼<img src="images/hot.gif">&nbsp;&nbsp;&nbsp;&nbsp;  特步</li>
+    </ul>
+    <ul id="nvzhuang"class="slide">
+        <li class="tuijian">女装</li>
+    </ul>
+    <ul class="pingpai">
+        <li class="kk">呢大衣<img src="images/hot.gif"> &nbsp;&nbsp;&nbsp;T恤</li>
+        <li class="kk">羽绒 &nbsp;&nbsp;&nbsp; &nbsp;  衬衫</li>
+        <li class="kk">羊毛衫 &nbsp;&nbsp;&nbsp;&nbsp;针织</li>
+        <li class="kk">连衣裙<img src="images/hot.gif">&nbsp;&nbsp;&nbsp;皮外套</li>
+    </ul>
+    <ul id="nanzhuang"class="slide">
+        <li class="tuijian">男装</li>
+    </ul>
+    <ul class="pingpai">
+        <li class="kk">衬衫<img src="images/hot.gif"> &nbsp;&nbsp;&nbsp;T恤衫</li>
+        <li class="kk">夹克 &nbsp;&nbsp;&nbsp; &nbsp;大皮衣</li>
+        <li class="kk">风衣 &nbsp;&nbsp;&nbsp;&nbsp; 牛仔裤</li>
+        <li class="kk">西服<img src="images/hot.gif">&nbsp;&nbsp;&nbsp; 卫衣</li>
+    </ul>
+    <ul id="xiepaopeishi"class="slide">
+        <li class="tuijian">鞋包配饰</li>
+    </ul>
+    <ul class="pingpai">
+        <li class="kk">围巾<img src="images/hot.gif"> &nbsp;&nbsp;&nbsp;旅行箱</li>
+        <li class="kk">真皮包 &nbsp;&nbsp;&nbsp; 韩版</li>
+        <li class="kk">达芙妮 &nbsp;&nbsp;&nbsp; 单肩包</li>
+        <li class="kk">毛线<img src="images/hot.gif">&nbsp;&nbsp;&nbsp; 清仓靴子</li>
+    </ul>
+</div>
+<div id="right">
+<div id="img">
+    <div id="img-box">
+        <img src="images/ads/1.jpg">
+        <img src="images/ads/2.jpg">
+        <img src="images/ads/3.jpg">
+        <img src="images/ads/4.jpg">
+        <img src="images/ads/5.jpg">
+    </div>
+
+    <div id="fuxuan">
+        <li id="on" class="xuanxiang">相约情人节全场119元起</li>
+        <li  class="xuanxiang">新款上市全场357元起</li>
+        <li  class="xuanxiang">愤怒小鸟特卖全场89元起</li>
+        <li  class="xuanxiang">男鞋促销第一全场3.8折起</li>
+        <li  class="xuanxiang">春季新品发布全场4.5折起</li>
+    </div>
+</div>
+    <div id="small">
+        <div id="small-img">
+            <img src="images/upload/20120216.jpg">
+        </div>
+    </div>
+
+    <div id="dongtai">
+    <ul id="zuixin">
+        <li>最新动态</li>
+    </ul>
+        <ul id="huodong">
+            <li>[活动] 伊伴春鞋迎春大促</li>
+            <li>[活动] 千百度冬靴新品火热让利</li>
+            <li>[活动] COEY秋冬新品全场2.3折起</li>
+            <li>[活动] 伊伴春鞋迎春大促</li>
+            <li>[活动] 千百度冬靴新品火热让利</li>
+        </ul>
+    </div>
+    <div id="bottom">
+        <ul id="pd">
+            <li>品牌活动</li>
+        </ul>
+        <ul id="select">
+            <li class="color">运动</li>
+            <li>女鞋</li>
+            <li>男鞋</li>
+            <li>童鞋</li>
+        </ul>
+    </div>
+    <div id="lbimg">
+        <ul id="lbimgul">
+            <li><img src="images/upload/20120217.jpg">
+                <ul class="jieshi">
+                    <li>耐克</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120218.jpg">
+                <ul class="jieshi">
+                    <li>阿迪达斯</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120219.png">
+                <ul class="jieshi">
+                    <li>李宁</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120220.png">
+                <ul class="jieshi">
+                    <li>安踏</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120217.jpg">
+                <ul class="jieshi">
+                    <li>耐克</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120218.jpg">
+                <ul class="jieshi">
+                    <li>阿迪达斯</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120219.png">
+                <ul class="jieshi">
+                    <li>李宁</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120220.png">
+                <ul class="jieshi">
+                    <li>安踏</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120217.jpg">
+                <ul class="jieshi">
+                    <li>耐克</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120218.jpg">
+                <ul class="jieshi">
+                    <li>阿迪达斯</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120219.png">
+                <ul class="jieshi">
+                    <li>李宁</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120220.png">
+                <ul class="jieshi">
+                    <li>安踏</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120217.jpg">
+                <ul class="jieshi">
+                    <li>耐克</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120218.jpg">
+                <ul class="jieshi">
+                    <li>阿迪达斯</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120219.png">
+                <ul class="jieshi">
+                    <li>李宁</li>
+                </ul>
+            </li>
+            <li><img src="images/upload/20120220.png">
+                <ul class="jieshi">
+                    <li>安踏</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    var smallimg=document.getElementById("small-img")
+    var oselect=document.getElementById("select");
+    var olbimgul=document.getElementById("lbimgul");
+    var aImg=olbimgul.getElementsByTagName("li")
+
+    var ali=oselect.getElementsByTagName("li")
+    smallimg.onmouseover=function(){
+        this.style.WebkitTransform='rotateZ('+360+'deg)';
+    }
+    smallimg.onmouseout=function(){
+        this.style.WebkitTransform='rotateZ('+-360+'deg)';
+    }
+    for(var i=0;i<ali.length;i++)
+    {
+        ali[i].index=i;
+        ali[i].onclick=function(){
+            animate(olbimgul,{left: -this.index*4*(aImg[0].offsetWidth+10.5)});
+
+        }
+    }
+</script>
+</body>
+</html>
