@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+.conten{
+    width: 680px;
+    height: 344px;
+    background-color: #999999;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+.table {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+.table li{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.picture{
+    width: 2720px;
+    height: 344px;
+    /*overflow: hidden;*/
+    position: absolute;
+}
+.picture img{
+
+    float: left;
+}
+.symbol{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+.symbol span{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.picture .selected{
+    display: block;
+
+}
+.table .selected{
+    background-color: lime;
+}
