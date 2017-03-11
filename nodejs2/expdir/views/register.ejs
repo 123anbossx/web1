@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+<script src="javascripts/jquery.js"></script>
+<form action="/chongfu"method="post"id="biaodan"onsubmit="return false">
+    <li>用户名:<input type="text"name="uname"id="uname"></li>
+    <li>用户密码:<input type="password"name="pass1" id="pass1"></li>
+    <li>确认密码:<input type="password"name="pass2"id="pass2"></li>
+    <li><input type="submit"name="sub"value="提交"id="bnt"></li>
+</form>
+<script>
+    var $uname=$('#uname');
+    var $pass1=$('#pass1');
+    var $pass2=$('#pass2');
+
+    $('#bnt').on('click',function(){
+              that=this
+        if($uname.val()==''){
+            alert('用户名不能为空');
+//            $('#biaodan').attr('onsubmit','return false');
+        }else{
+            if($pass1.val()!=$pass2.val()){
+//                $('#biaodan').attr('onsubmit','return false');
+                alert('两次输入的密码不同');
+           }else{
+                $.post('/yonghu',{'uname':$uname.val(),'pass1':$pass1.val()},function(data){
+                             if(data=="success"){
+                                 $('#biaodan').attr('onsubmit','return true');
+                             }
+                             else{
+                                 alert("此用户名已被注册")
+                             }
+                })
+
+           }
+        }
+   })
+
+</script>
