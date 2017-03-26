@@ -1,0 +1,602 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #BABEBF;
+}
+#top{
+    width: 50px;
+    height: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+#top img{
+    width: 60px;
+    height: 70px;
+}
+#head{
+    width: 100%;
+    height: 60px;
+    background-color:#009999;
+}
+#log{
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    left: 50px;
+}
+
+#text{
+    line-height: 60px;
+    font-size: 35px;
+    color: white;
+}
+#text2{
+    line-height: 60px;
+    font-size: 25px;
+    color:white;
+}
+#text3{
+    width: 250px;
+    float: left;
+
+}
+#plog{
+    color: white;
+    font-size: 35px;
+    float: left;
+    line-height: 60px;
+}
+#nav{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    height: 50px;
+}
+#nav a{
+    line-height: 60px;
+    float: left;
+    margin-left: 35px;
+}
+#nav a:hover{
+    font-size: 25px;
+}
+#nav  a{
+    color: white;
+    text-align: center;
+}
+#nav .selected{
+    color: #2FD828;
+    border-bottom: 1px solid red;
+    font-size: large;
+}
+#nav a li{
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    display: none;
+}
+#a{position: absolute;
+    margin:  auto;
+    padding-left:46%;
+
+
+}
+#a a{
+    display: block;
+    color: white;
+    height: 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#nav2{
+    width: 100%;
+    height: 400px;
+    background-color: #009999;
+    display: none;
+}
+#a{
+    display: none;
+}
+#font{
+
+    color:white;
+    font-size: 35px;
+    line-height: 60px;
+
+    display: none;
+    float: right;
+    margin-right: 10px;
+    width: 40px;
+   text-align: center;
+
+}
+
+#font:hover{
+    background-color: #2FD828;
+
+}
+#pic li{
+    background: url("../imgs/banner.jpg")no-repeat;
+    background-size: cover;
+     height: 700px;
+}
+#text4{
+    padding-top: 50px;
+   position: absolute;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100%;
+    width: 100%;
+    display: none;
+}
+#circle{
+    width: 100%;
+    background-color: #e7e7e7;
+}
+#circle2{
+     margin: 0px auto;
+     padding-top: 100px;
+     width: 1250px;
+     padding-bottom: 100px;
+
+}
+#circle2 .bigcircle{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+  display:inline-block;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 3px solid  white;
+
+}
+#circle2 .bigcircle .smallcircle{
+    width: 70px;
+    height: 70px;
+    background-color:#BABEBF;
+    margin: -25px auto;
+    border-radius: 50%;
+    border: 1px solid #BABEBF;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+    color: #393939;
+}
+#circle2 .bigcircle .interest{
+    text-align: center;
+    border-radius: 50%;
+   margin:30px auto;
+    width: 200px;
+    height: 200px;
+
+}
+#circle2 .bigcircle .selected{
+    color: white;
+    background-color:#2FD828;
+    -moz-transition-property:border-color,background-color,color;
+    -moz-transition-duration:.5s;
+    -moz-transition-timing-function:ease-in;
+    -webkit-transition-property:border-color,background-color,color;
+    -webkit-transition-duration:.5s;
+    -webkit-transition-timing-function:ease-in;
+    transition-property:border-color,background-color,color;
+    transition-duration:.5s;
+    transition-timing-function:ease-in;
+}
+#exp{
+    display: block;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    padding-top: 80px;
+}
+#circle2 .selected{
+    border: 3px solid  #2FD828;
+    -moz-transition-property:border-color,background-color,color;
+    -moz-transition-duration:.5s;
+    -moz-transition-timing-function:ease-in;
+    -webkit-transition-property:border-color,background-color,color;
+    -webkit-transition-duration:.5s;
+    -webkit-transition-timing-function:ease-in;
+    transition-property:border-color,background-color,color;
+    transition-duration:.5s;
+    transition-timing-function:ease-in;
+}
+#introduce{
+    width: 100%;
+    background-color: black;
+}
+#introduce h2{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+#introduce2{
+    padding-top: 50px;
+    overflow: hidden;
+
+}
+#introduce3{
+    margin-left: 25%;
+}
+#introduce3 li{
+    width: auto;
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+}
+#introduce3 li.selected{
+    font-size: 30px;
+    border-bottom: 3px solid red;
+}
+#touxiang img{
+     width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+}
+#relation{
+    margin-left: 350px;
+   height: 30px;
+    margin-bottom: 15px;
+}
+
+#relation span{
+   color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
+#relation span.selected{
+    font-size: 28px;
+}
+#IT{
+    position:relative;
+    background-color: #BABEBF;
+    width: 100%;
+    height: 800px;
+    top: -40px;
+}
+
+#Y{
+    width: 3px;
+    height: 700px;
+    background-color: red;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+#Y span h2{
+    position: absolute;
+    color: red;
+    font-size: 50px;
+   left: 40%;
+    top: -70px;
+
+}
+#Y li{
+    width: 1000px;
+    height: 3px;
+    margin-top: 140px;
+    border-bottom:2px dashed red;
+}
+#X{
+    width: 1000px;
+    height: 3px;
+    background-color: red;
+    margin-left: 300px;
+}
+#X ul{
+    position: absolute;
+}
+#X ul li{
+    position: absolute;
+}
+#X li{
+    width: 50px;
+    background-color: #0000fe;
+    margin-left:140px;
+    float: left;
+    text-align: center;
+}
+#X li.html{
+    height: 620px;
+    top: -620px;
+}
+#X li.js{
+    height: 580px;
+    top: -580px;
+    margin-left: 175px;
+}
+#X li.node{
+    height: 540px;
+    top: -540px;
+    margin-left: 230px;
+}
+#X li.sql{
+    height: 460px;
+    top: -460px;
+    margin-left: 300px;
+}
+#X li.php{
+    height: 400px;
+    top: -400px;
+    margin-left: 350px;
+}
+#X-text span{
+    margin-left: 135px;
+    font-size: 25px;
+    font-weight: 900;
+}
+#X li div{
+    width: 50px;
+    height: 0px;
+}
+#X li div.html{
+    background-color: red;
+}
+#X li div.js{
+    background-color: #00B7FF;
+}
+#X li div.node{
+    background-color:#2FD828;
+}
+#X li div.sql{
+    background-color: #E9DC51;
+}
+#X li div.php{
+    background-color: #F9AF2A;
+}
+#X li div.selected{
+    height: 100%;
+    -moz-transition-property:border-color,height;
+    -moz-transition-duration:.5s;
+    -moz-transition-timing-function:ease-in;
+    -webkit-transition-property:border-color,height;
+    -webkit-transition-duration:.5s;
+    -webkit-transition-timing-function:ease-in;
+    transition-property:border-color,height;
+    transition-duration:.5s;
+    transition-timing-function:ease-in;
+}
+@media (max-width: 1576px){
+    #relation{
+        margin-left: 200px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1363px){
+    #relation{
+        margin-left: 0px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1280px){
+    #Y{
+        margin-left: 200px;
+    }
+    #Y li{
+        width: 800px;
+    }
+    #X{
+        width: 800px;
+        margin-left: 200px;
+
+    }
+    #X li{
+        width: 40px;
+        background-color: #0000fe;
+        margin-left:100px;
+        float: left;
+        text-align: center;
+    }
+    #X li.js{
+        margin-left: 110px;
+    }
+    #X li.node{
+        margin-left: 130px;
+    }
+    #X li.sql{
+        margin-left: 150px;
+    }
+    #X li.php{
+        margin-left: 170px;
+    }
+    #X-text span{
+        margin-left: 97px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    #X li div{
+        width: 40px;
+        height: 0px;
+    }
+}
+@media (max-width: 1172px){
+    #relation{
+        margin-left: -200px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    #introduce3 ul{
+        margin-left: 40px;
+    }
+}
+@media (max-width: 1172px){
+    #introduce3 ul{
+        margin-left: 60px;
+    }
+}
+@media (max-width: 1200px){
+    #circle2{
+       width: 1200px;
+    }
+    #circle2 .bigcircle{
+        width: 200px;
+        height: 250px;
+    }
+}
+@media (max-width: 1000px){
+    #touxiang img{
+        width: 250px;
+        height: 250px;
+    }
+    #introduce3 ul{
+        margin-left: 80px;
+    }
+    #circle2{
+        width: 990px;
+    }
+    #circle2 .bigcircle{
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 980px){
+    #Y{
+
+        margin-left: 100px;
+
+    }
+    #Y li{
+        width: 700px;
+    }
+    #X{
+        width: 700px;
+        margin-left: 100px;
+    }
+    #X li{
+        width: 30px;
+        background-color: #0000fe;
+        margin-left:80px;
+        float: left;
+        text-align: center;
+    }
+    #X li.js{
+        margin-left: 70px;
+    }
+    #X li.node{
+        margin-left: 75px;
+    }
+    #X li.sql{
+        margin-left: 80px;
+    }
+    #X li.php{
+        margin-left: 85px;
+    }
+    #X-text span{
+        margin-left: 80px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    #X li div{
+        width: 30px;
+        height: 0px;
+    }
+}
+@media (max-width: 880px){
+    #introduce3 ul{
+        margin-left: 100px;
+    }
+   #relation{
+       display: none;
+   }
+    #circle2 .bigcircle{
+        width: 500px;
+        height: 150px;
+        display: block;
+        margin-left: 15%;
+        margin: 50px auto;
+    }
+    #circle2 .bigcircle .interest{
+        width: 400px;
+        height: 100px;
+    }
+    #circle2{
+        width: 500px;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 800px){
+    #nav{
+        display: none;
+    }
+    #font{
+        display: block;
+    }
+    #text4{
+        font-size: 50px;
+    }
+    #head{
+        border-bottom: 1px solid white;
+    }
+  #a a:hover{
+      color: #2FD828 ;
+      font-size: large;
+  }
+    @media (max-width: 600px){
+        #touxiang img{
+            width: 200px;
+            height: 200px;
+        }
+        #text4{
+            font-size: 30px;
+        }
+    }
+    @media (max-width: 450px){
+        #text4{
+            font-size: 15px;
+        }
+        #log{
+            width: 233px;
+        }
+        #text3{
+            display: none;
+        }
+        #log{
+            width: 25px;
+        }
+    }
+    @media (max-width: 410px){
+        #Y span h2{
+            display: none;
+        }
+    }
+    @media (max-width: 340px){
+        #text4 {
+           display: none;
+        }
+        #circle2 .bigcircle{
+               width: 200px;
+               height: 200px;
+        }
+        #circle2{
+            width: 200px;
+        }
+        #circle2 .bigcircle .interest{
+            width: 200px;
+            height: 200px;
+        }
+ #exp{
+     font-size: 25px;
+ }
+    }
+    @media (max-width: 148px){
+        #log{
+         display: none;
+        }
+    }
+}
