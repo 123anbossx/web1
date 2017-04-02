@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div id="app">
+    <input type="text" v-model="msg">
+    <input type="checkbox"value="100"v-model="check">沙发(100.0)
+    <input type="checkbox"value="200"v-model="check">床(200.0)
+    <input type="checkbox"value="300"v-model="check">wifi(300.0)
+    <!--<li><span>日均价</span> <span>天数</span> <span>总价</span></li>-->
+    <!--<li><span>{{num1}}</span><span></span><span></span></li>-->
+    {{check}}
+</div>
+<div id="dingdan">
+
+</div>
+<script src="vue.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            msg:'aa',
+            check:[],
+            num1:'1',
+            num2:'2',
+            num3:'3'
+        },
+
+
+    });
+
+    //console.log(vm.msg);
+</script>
+</body>
+</html>

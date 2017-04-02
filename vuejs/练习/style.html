@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="vue.js"></script>
+    <style>
+        .red {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        /*.font{*/
+        /*color: #00A5FF;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<!--动态的绑定样式（1）-->
+<!--<div id="app">-->
+<!--<div :class="{red:isRed,font:isRed}">-->
+<!--sdfkjshdks-->
+<!--</div>-->
+<!--</div>-->
+<!--<script>-->
+<!--var vm=new Vue({-->
+<!--el:'#app',-->
+<!--data:{-->
+<!--isRed:true-->
+<!--}-->
+<!--});-->
+<!--</script>-->
+<!--//动态的绑定样式（2）-->
+<!--<div id="app">-->
+<!--<div :class="classObj">-->
+<!--ddgfudbukvcshj-->
+<!--</div>-->
+<!--</div>-->
+<!--<script>-->
+<!--var vm=new Vue({-->
+<!--el:'#app',-->
+<!--data:{-->
+<!--classObj:{-->
+<!--red:true,-->
+<!--font:true-->
+<!--}-->
+<!--}-->
+<!--})-->
+<!--</script>-->
+<!--<div id="app">-->
+<!--<input type="button"value="点击"@click="hide">-->
+<!--<div :class="{red:isRed}"></div>-->
+
+<!--</div>-->
+<!--<script>-->
+<!--var vm=new Vue({-->
+<!--el:'#app',-->
+<!--data:{-->
+<!--isRed:true-->
+<!--},-->
+<!--methods:{-->
+<!--hide:function(){-->
+<!--this.isRed=!this.isRed-->
+<!--}-->
+<!--}-->
+<!--})-->
+<!--</script>-->
+<!--style的用法-->
+<!--<div id="app">-->
+
+    <!--<div :style="style">gdfgsd</div>-->
+
+<!--</div>-->
+<!--<script>-->
+    <!--var vm = new Vue({-->
+        <!--el: '#app',-->
+        <!--data: {-->
+            <!--isRed: true,-->
+            <!--style: {-->
+                <!--width: '100px',-->
+                <!--height: '100px',-->
+                <!--'background-color': 'red',-->
+                <!--color:'blue'-->
+
+            <!--}-->
+        <!--}-->
+<!--//        methods:{-->
+<!--//            hide:function(){-->
+<!--//                this.isRed=!this.isRed-->
+<!--//            }-->
+<!--//        }-->
+    <!--})-->
+<!--</script>-->
+<!--输出数组和索引-->
+<!--<div id="app">-->
+   <!--<li v-for="(arr1,index) in arry">{{arr1}},{{index}}</li>-->
+<!--</div>-->
+<!--<script>-->
+    <!--var vm=new Vue({-->
+        <!--el:"#app",-->
+        <!--data:{-->
+            <!--arry:[1,2,3,4,5]-->
+        <!--}-->
+    <!--})-->
+<!--</script>-->
+<!--对象型数组-->
+<!--<div id="app">-->
+    <!--<li v-for="(arr1,index) in arry">{{arr1.name}},{{arr1.age}}}{{index}}</li>-->
+<!--</div>-->
+<!--<script>-->
+    <!--var vm=new Vue({-->
+        <!--el:"#app",-->
+        <!--data:{-->
+            <!--arry:[{name:'zhangsan',age:'25'},-->
+                <!--{name:'lisi',age:'20'}-->
+            <!--]-->
+        <!--}-->
+    <!--})-->
+<!--</script>-->
+<div id="app">
+    姓名 ：<input type="text"v-model="name">
+    年龄：<input type="text"v-model="age">
+    <input type="button"value="添加"@click="add">
+    <ul>
+        <li v-for="(val,index) in datalist">姓名：{{val.name}} ；年龄：{{val.age}}<input type="button"value="del"@click="del(index)"></li>
+    </ul>
+</div>
+<script>
+    var vm=new Vue({
+        el:"#app",
+        data:{
+                name:'',
+                age:'',
+            datalist:[]
+        },
+        methods:{
+            add:function(){
+                this.datalist.push({name:this.name,age:this.age})
+                this.name='';
+                this.age='';
+            },
+            del:function(index){
+                this.datalist.splice(index,1)
+            }
+        }
+    })
+</script>
+</body>
+</html>

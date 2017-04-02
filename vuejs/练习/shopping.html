@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            list-style: none;
+        }
+        .location{
+           margin-left: 100px;
+            margin-top: 100px;
+            font-size: 20px;
+        }
+        .style li{
+            margin-top: 10px;
+        }
+        .sum{
+            margin-top: 30px;
+        }
+        .sum span{
+            margin-left: 80px;
+        }
+    </style>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app" :class="{location:isLocation}">
+    是否需要额外付费设施<input type="checkbox"@click="getFurniture">
+    <ul :class="{style:isStyle}">
+        <li v-for="data in datalist">{{data.name}}({{data.price}})<input type="checkbox"v-model="sumdata":value="data"></li>
+    </ul>
+    <ul>
+      <li>订单费用信息：</li>
+        <li v-for="sum in sumdata":class="{sum:isSum}"><span>{{sum.name}}</span> <span>￥{{sum.price}}</span></li>
+    </ul>
+   <li>总金额:{{sumMoney}}</li>
+</div>
+<script>
+
+    var vm=new Vue({
+        el:'#app',
+        data:{
+          isLocation:true,
+            isStyle:true,
+            isSum:true,
+            datalist:[],
+            sumdata:[{name:'群力花园豪华型',price:400}]
+        },
+        computed:{
+            sumMoney:function(){
+                var t=0;
+                for(var i=0;i<this.sumdata.length;i++){
+                    t=t+this.sumdata[i].price;
+                }
+                return t;
+//                var t=0;
+//                this.sumdata.forEach(function(val){
+//                    t=t+val.price
+//                });
+//                return t;
+            }
+        },
+        methods:{
+           getFurniture:function(){
+               if(event.target.checked){
+                 this.datalist.push({name:'床',price:100},{name:'沙发',price:200},{name:'wilf',price:300});
+               }else{
+                   this.datalist=[];
+                   this.sumdata=[{name:'群力花园豪华型',price:400}]
+               }
+           },
+
+        }
+    })
+</script>
+</body>
+</html>
