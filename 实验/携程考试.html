@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #app{
+            margin: 200px 500px;
+        }
+    </style>
+    <script src="jquery.js"></script>
+</head>
+<body>
+<div id="app">
+    <input type="button"value="100">
+    <input type="button"value="200">
+    <input type="button"value="90">
+    <input type="button"value="150">
+    <input type="button"value="5">
+</div>
+<script>
+    var oinput=document.getElementsByTagName('input');
+    var array=[];
+    for(var i=0;i<oinput.length;i++){
+        array.push(oinput[i].value)
+    }
+    array.sort(function (a,b) {
+        return b-a;
+    });
+    for(var j=0;j<array.length;j++){
+        oinput[j].value=array[j];
+    }
+    $(oinput).on('click',function () {
+        var that=this;
+       var timer=setInterval(function () {
+           that.value=that.value-1;
+           if(that.value==0){
+               clearInterval(timer)
+           }
+       },1000);
+
+    });
+//     function change() {
+//         setInterval(function () {
+//             this.value=this.value-1
+//         },1000)
+//     }
+</script>
+</body>
+</html>
