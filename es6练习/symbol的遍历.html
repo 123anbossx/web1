@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let obj={};
+  let a=Symbol('a');
+  let b=Symbol('b');
+  obj[a]='hello word';
+  obj[b]='nice to meet you';
+  let prop=Object.getOwnPropertySymbols(obj);
+  console.log(prop[0])
+</script>
+</body>
+</html>
