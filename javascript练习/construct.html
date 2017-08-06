@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //返回对像对数组函数的引用
+    function employee(name,age,sex) {
+        this.name=name;
+        this.age=age;
+        this.sex=sex;
+    }
+    var bill=new employee('lisi',20,'man');
+    console.log(bill.constructor)
+</script>
+</body>
+</html>
