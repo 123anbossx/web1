@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        /*Object.prototype.clone = function() {
+            var newObj = {};
+            for(var prop in this){
+                if(typeof this[prop] === 'object'){
+                    newObj[prop] = this[prop].clone();
+                }else{
+                    newObj[prop] = this[prop];
+                }
+            }
+            return newObj;
+        };*/
+        var o1 = {
+            name: 'lisi',
+            age: 23,
+            brother: {
+                name: 'lixx'
+            }
+        };
+
+        var str = JSON.stringify(o1); //=>string
+
+        var o2 = JSON.parse(str);//clone(o1); //o1.clone();
+
+        o1.brother.name = 'wangwu';
+
+        console.log(o2);
+
+        function clone(obj) {
+            var newObj = {};
+            for(var prop in obj){
+                /*if(typeof obj[prop] === 'object'){
+                    newObj[prop] = arguments.callee(obj[prop]);//arguments.callee=当前函数的名字
+                }else{
+                    newObj[prop] = obj[prop];
+                }*/
+                newObj[prop] = typeof obj[prop] === 'object' ? arguments.callee(obj[prop]) : obj[prop];
+            }
+            return newObj;
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <li v-if="seen">我在学习vue</li>
+    <li v-for="arry1 in arry">
+        {{arry1.name}}
+        {{arry1.age}}
+        {{arry1.sex}}
+    </li>
+</div>
+<script>
+
+    var vm=new Vue({
+        el:'#app',
+        data:{
+            seen:true,
+            arry:[
+                {name:'anbo',
+                  age:23,
+                  sex:'男'
+                },
+                {name:'zhangsan',
+                    age:'24',
+                    sex:'男'
+                },
+                {name:'lisi',
+                    age:25,
+                    sex:'男'
+                }
+            ]
+        }
+    })
+</script>
+</body>
+</html>

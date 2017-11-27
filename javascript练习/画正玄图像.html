@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"></meta>
+    <title>sin函数图像的实现</title>
+    <style type="text/css">
+        #main{
+            width: 600px;
+            height: 200px;
+            border: 1px solid #000;
+            margin: 200px auto;
+            position: relative;
+            background-color: yellow;
+        }
+        #horizon{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        #horizon>div{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="horizon"></div>
+</div>
+<script type="text/javascript">
+    // 根据id获得
+    function $(str) {
+        return document.getElementById(str);
+    }
+    var Sin = {
+        // 获得宽度
+        width: $("main").clientWidth,
+        // 获得高度的1/2
+        height: $("main").clientHeight / 2,
+        // 生成直线
+        drawLine: function() {
+            for (var i = 0, arr = []; i < this.width + 1; i++) {
+                arr[i] = this.createDiv(1,1,i,this.height,"#000");
+            }
+            $("horizon").innerHTML += arr.join("");
+        },
+        createDiv: function (w,h,x,y,color) {
+            return "<div style='width:" + w + "px;height:" + h + "px;left:" + x +"px;top:" + y + "px;background:" + color + "'></div>"
+        },
+        // 生成正弦函数图像
+        drawSinWrap: function(wave) {
+            var num = 0;
+            wave = !isNaN(wave) && wave > 0 ? wave : 0;
+            for (var i = 0, arr = []; i < this.width; i++) {
+                arr[i] = this.createDiv(2, 2, i+= wave, parseInt(this.height + Math.sin(num += .1) * this.height), "red");
+            }
+            $("horizon").innerHTML += arr.join("");
+        },
+        // 生成余弦函数图像
+        drawCosWrap: function(wave) {
+            var num = 0;
+            wave = !isNaN(wave) && wave > 0 ? wave : 0;
+            for (var i = 0, arr = []; i < this.width; i++) {
+                arr[i] = this.createDiv(2,2,i+= wave,parseInt(this.height + Math.cos(num += .1) * this.height),"blue");
+            }
+            $("horizon").innerHTML += arr.join("");
+        }
+    };
+    Sin.drawLine();
+    Sin.drawSinWrap(1);
+    Sin.drawCosWrap(1);
+</script>
+</body>
+</html>

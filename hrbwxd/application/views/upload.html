@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+</head>
+<body>
+<form action="post_file" method="post" enctype="multipart/form-data">
+        <input id="downId" name="downId" type="hidden" value="">
+
+        <div class="fileTitle">
+            <label for="fileTitle">文件标题：</label>
+            <input type="text" name="title" id="fileTitle" />
+            <span>*姓名+联系方式</span>
+        </div>
+
+        <div class="file">
+            <label for="file">上传文件：</label>
+            <input type="file" name="uploadFile" id="file" />
+        </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary">确认上传</button>
+        </div>
+</form>
+</body>
+</html>

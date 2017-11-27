@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <li v-html="mes"></li>
+</div>
+<script>
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            mes:'<span></span>'
+        }
+    })
+</script>
+</body>
+</html>

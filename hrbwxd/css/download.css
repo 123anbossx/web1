@@ -1,0 +1,113 @@
+#content{
+    padding-top: 20px;
+}
+#content  li .list{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    display: inline-block;
+    width:70%;
+    color:#666;
+    font-size: 12px;
+
+}
+#content a.btn{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    /*width: 82px;*/
+}
+
+.title{
+    background: url("../img/left_icon1.jpg") no-repeat 10px center;
+    /*margin-left:10px;*/
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.title a{
+    color: #000000;
+    margin-left: 40px;
+}
+a{
+    color: #666;
+    /*text-indent: 5px;*/
+    margin: 0 0 0 20px;
+    /*padding-bottom: 10px;*/
+    /*border-bottom: solid 1px #666;*/
+}
+#policy .article{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: dotted 1px #666;
+}
+#policy .article a{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    display: inline-block;
+    width: 90%;
+    margin-left: 10px;
+}
+hr{
+    margin: 10px;
+    border-top: 1px solid #666;
+}
+#list .type a{
+    font-size: 15px;
+}
+#list ul{
+    margin-left:10px;
+    margin-top: 5px;
+
+}
+#list  li{
+    /*text-indent: 5px;*/
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    /*border-bottom: solid 1px;*/
+
+}
+#list  li a{
+    margin-left: 10px;
+    color:#666;
+    font-size: 14px;
+
+}
+.more{
+    font-size: 12px;
+    font-weight: lighter;
+    float: right;
+}
+
+/*弹层样式开始*/
+#uploadModal .title{
+
+}
+#uploadModal .file{
+    margin-top: 20px;
+}
+#uploadModal .file input{
+    display: inline-block;
+}
+
+
+
+/*弹层样式结束*/
+@media all and (max-width: 767px){
+
+    .btn{
+        font-size: 12px;
+        padding: 1px 5px;
+
+    }
+    #content  li .list{
+        width: 50%;
+    }
+    #content a.btn{
+        font-size: 12px;
+    }
+
+}

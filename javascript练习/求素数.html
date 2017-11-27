@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//    function aa() {
+//        var arr=[];
+//        for(var i=100;i<=1000;i++){
+//            var flag=true;
+//            for(var j=2;j<i;j++){
+//                if(i%j==0){
+//                    flag=false;
+//                    break;
+//                }
+//            }
+//            if(flag){
+//                document.write(i+'&nbsp');
+//              var num1=arr.push(i);
+//                if(arr.length%6==0){
+//                  document.write('<br>');
+//                }
+//
+//            }
+//        }
+//        return arr
+//    }
+// aa();
+    function aa2() {
+       var arr=[];
+       for(var i=100;i<=1000;i++){
+           var flag=true;
+           for(var j=2;j<i;j++){
+               if(i%j==0){
+                   flag=false;
+                   break
+               }
+           }
+           if(flag){
+               arr.push(i);
+               document.write(i+'&nbsp');
+               if(arr.length%6==0){
+                   document.write('<br/>')
+               }
+           }
+
+       }
+    }
+    aa2();
+</script>
+</body>
+</html>

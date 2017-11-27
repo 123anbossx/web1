@@ -1,0 +1,137 @@
+#content{
+    padding-top: 20px;
+}
+.ellipsis{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    display: inline-block;
+    width:70%;
+    color:#666;
+
+}
+.title{
+    background: url("../img/left_icon1.jpg") no-repeat 10px center;
+    /*margin-left:10px;*/
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.title a{
+    color: #000000;
+    margin-left: 40px;
+}
+a{
+    color: #666;
+    /*text-indent: 5px;*/
+    margin-left:20px;
+    /*padding-bottom: 10px;*/
+    /*border-bottom: solid 1px #666;*/
+}
+hr{
+    margin: 10px;
+    border-top: 1px solid #666;
+}
+#policy .article{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: dotted 1px #666;
+}
+#policy .article a{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    display: inline-block;
+    width: 90%;
+    margin-left: 10px;
+}
+#list ul{
+    margin-left:10px;
+    margin-top: 5px;
+
+}
+#list  li{
+    /*text-indent: 5px;*/
+    height: 33px;
+    line-height: 33px;
+    overflow: hidden;
+    border-bottom: dashed 1px;
+}
+#list  li a{
+    margin-left: 10px;
+    color:#666;
+
+}
+.more{
+    font-size: 12px;
+    font-weight: lighter;
+    float: right;
+}
+.am-fr {
+    float: right;
+}
+.am-pagination {
+    position: relative;
+    padding-left: 0;
+    margin: 1.5rem 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+}
+.am-pagination>li {
+    display: inline-block;
+}
+.am-pagination>li>a, .am-pagination>li>span {
+    position: relative;
+    display: block;
+    padding: .5em .5em;
+    text-decoration: none;
+    line-height: 1.2;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.am-pagination>.am-active>a{
+    z-index: 2;
+    color: #fff;
+    background-color: #0A624B;
+    border-color: #0A624B;
+    cursor: default;
+}
+.am-pagination>li>a:hover{
+    background-color: #eee;
+}
+.am-pagination a{
+    margin-left: 2px;
+}
+@media all and (max-width: 767px){
+    .am-pagination>li>a, .am-pagination>li>span{
+        padding: .2em .1em;
+
+    }
+}
+/*地图开始*/
+#map li a{
+    color: #000000;
+    font-style: 15px;
+}
+.iw_poi_title {
+    color:#CC5522;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding-right:13px;
+    white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial,sans-serif;
+    overflow:visible;
+    padding-top:4px;
+    white-space:-moz-pre-wrap;
+    word-wrap:break-word
+}
+
+/*地图结束*/

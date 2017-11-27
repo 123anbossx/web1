@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var data=new Date();
+    var year=data.getFullYear();
+    function getyear(year) {
+        if(year%400==0 || (year%4==0&& year%100!=0)){
+            console.log(year+'是闰年');
+        }else {
+            console.log(year+'不是闰年')
+        }
+    }
+    getyear(2017)
+</script>
+</body>
+</html>

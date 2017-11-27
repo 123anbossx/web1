@@ -1,0 +1,281 @@
+/*pc端开始*/
+ .title{
+	/*background: url("../img/left_icon1.jpg") no-repeat 10px center;*/
+	/*margin-left:10px;*/
+	 background: rgb(233, 233, 233);
+ 	height: 33px;
+ 	line-height: 33px;
+	font-weight: bold;
+}
+.title .glyphicon{
+	margin-left: 15px;
+	font-size: 16px;
+	width: 14px;
+	color: #0a624b;
+}
+.title .title-text{
+}
+.more{
+	margin-left: 40px;
+	margin-right: 10px;
+	color: #666;
+	font-size: 12px;
+	font-weight: lighter;
+	float: right;
+}
+#content{
+	padding-top: 20px;
+}
+#content ul{
+	margin-left:10px;
+	margin-top: 5px;
+
+}
+#content  li{
+	text-indent: 5px;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	border-bottom: dashed 1px;
+}
+#content  li a{
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	display: inline-block;
+	color:#666;
+	width: 90%;
+}
+#news li a{
+	width:70%;
+}
+#picture-news{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#picture-news li{
+	width: 8px;
+	height: 8px;
+	border-bottom: 1px solid #fff;;
+	/*line-height: 8px;*/
+}
+
+#picture-news ol{
+	margin-bottom: -10px;
+}
+
+.carousel-control .glyphicon-chevron-right , .carousel-control .glyphicon-chevron-left{
+	width: 12px;
+	height: 12px;
+	margin-top: -5px;
+	font-size: 12px;
+}
+#news {
+	padding-left: 0;
+	padding-right: 20px;
+}
+#publicity{
+	margin-bottom: 30px;
+}
+#center-img{
+	background: url("../img/center.jpg");
+	height: 120px;
+	margin-top: 30px;
+}
+#download a{
+	color: #666;
+}
+#download p{
+	margin-top: 15px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	/*border-bottom: solid 1px #666;*/
+}
+#download p .glyphicon{
+	margin-left: 15px;
+	font-size: 16px;
+	color: #ffffff;
+}
+#download p a{
+	color: #fff;
+}
+#activity{
+	margin-top: 40px;
+}
+#link{
+	margin-top: 30px;
+}
+#link ul{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#link li{
+	border-bottom: none;
+}
+#link li span{
+	margin-right: 10px;
+}
+#link li a {
+	color: #666;
+}
+#footer p {
+	font-size: 12px;
+	padding: 0;
+	margin-bottom: 5px;
+}
+#content-m{
+	display: none;
+}
+#link-m{
+	 display: none;
+ }
+
+
+/*pc端结束*/
+
+
+/*移动端开始*/
+
+@media all and (max-width: 767px){
+	#content {
+		display: none;
+
+	}
+	#content-m{
+
+		padding: 10px 5px;
+		display: block;
+		text-align: center;
+		background: #F0F0F0;
+	}
+	#link-m{
+		display: block;
+		background: #36654E;
+		margin-bottom: 120px;
+		text-indent: 10px;
+		color: #F0F0F0;
+		padding: 5px;
+		border-top: solid 15px #FFFFFF;
+	}
+	#link-m ul {
+		float: left;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#link-m li{
+		float: left;
+		margin: 3px 20px;
+	}
+	#link-m a{
+		color: #3B3B3B;
+	}
+}
+
+#mobile a{
+	color: white;
+}
+#publicity-m{
+	background: #6ABF48;
+}
+#publicity-m .height{
+	height: 102px;
+}
+#download-m{
+	background: #14B4F0;
+}
+.padding-left{
+	/*padding:0 15px;*/
+	padding-left: 5px;
+}
+.padding-right{
+	/*padding:0 15px;*/
+	padding-right: 5px;
+}
+#policy-m{
+	background: #47B8E0;
+}
+#government-m{
+	background: #E19024;
+}
+#activity-m{
+	background: #27BBD5;
+}
+.icon{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.icon span{
+	font-size: 35px;
+}
+
+#news-m{
+	background: #FFFFFF;
+	margin-top: 10px;
+	position: relative;
+
+}
+#news-m .title-m {
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+#news-m .title-m p {
+	padding: 0;
+	margin: 0;
+	float: left;
+	text-align: left;
+	text-indent: 20px;
+	color: #36654e;
+}
+#news-m .title-m a{
+	width: 50px;
+	position: absolute;
+	color: #36654E;
+	top: -10px;
+	right: 0;
+	font-size: 30px;
+	margin-right: 20px;
+}
+#news-m{
+	text-align: left;
+	text-indent: 20px;
+
+}
+#news-m .icon{
+	font-size: 40px;
+	color: #36654E;
+	padding: 0;
+
+}
+#news-m .more{
+	font-size: 20px;
+	float: right;
+	padding-right: 20px;
+}
+#news-m li {
+	height: 40px;
+	line-height: 40px;
+	border-top: solid 2px #F0F0F0;
+	position: relative;
+}
+#news-m a{
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	display: inline-block;
+	width:70%;
+	/*color:#666;*/
+	/*font-size: 12px;*/
+	/*display: inline-block;*/
+	font-size: 16px;
+	position: absolute;
+	top: 2px;
+	/*height: 40px;*/
+	/*line-height: 1px;*/
+	color: #3B3B3B;
+}
+
+
+
+/*移动端结束*/

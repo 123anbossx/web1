@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container{
+            width: 600px;
+            height: 200px;
+            background-color: yellow;
+            position: relative;
+           margin: 200px auto;
+            border: 1px solid #105ba3;
+        }
+        #point{
+            width: 600px;
+            height: 200px;
+            background-color: yellow;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        .axle{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+<div id="point"></div>
+</div>
+<script>
+    //获取元素ID
+    function getID(str) {
+        return document.getElementById(str)
+    };
+    //基本参数配置
+    parameter={
+        width:getID('container').clientWidth,
+        height:getID('container').clientHeight/2,
+        createDiv:function (w,h,x,y,b) {
+            return '<div class="axle"style="width: '+w+'px;height: '+h+'px;left: '+x+'px;top:'+y+'px;background-color:'+b+'"></div>'
+        }
+    };
+    //画X轴；
+       var arr=[];
+       function axleX() {
+
+        for(var i=0;i<parameter.width+1;i++){
+            arr[i]=parameter.createDiv(1,1,i,parameter.height,'red')
+        }
+        getID('point').innerHTML+=arr.join('');
+    };
+       function  Sin(dist) {
+
+        var num=0;
+        for(var i=0;i<parameter.width;i++){
+            arr[i]=parameter.createDiv(2,2,i+=dist,parameter.height+Math.sin(num+=.1)*parameter.height,'blue')
+        }
+        getID('point').innerHTML+=arr.join('');
+    }
+    function  Cos(dist) {
+
+        var num=0;
+        for(var i=0;i<parameter.width;i++){
+            arr[i]=parameter.createDiv(2,2,i+=dist,parameter.height+Math.cos(num+=.1)*parameter.height,'red')
+        }
+        getID('point').innerHTML+=arr.join('');
+    }
+    axleX();
+    Sin(1);
+    Cos(1);
+</script>
+</body>
+</html>

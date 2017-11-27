@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #main{
+            width: 600px;
+            height: 200px;
+            border: 1px solid #000;
+            margin: 200px auto;
+            position: relative;
+            background-color: yellow;
+        }
+        #horizon{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        #horizon>div{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="horizon"></div>
+</div>
+<script>
+    function $(str) {
+        return document.getElementById(str);
+    }
+    var Sin = {
+        // 获得宽度
+        width: $("main").clientWidth,
+        // 获得高度的1/2
+        height: $("main").clientHeight / 2,
+        // 生成直线
+        drawLine: function() {
+            for (var i = 0, arr = []; i < this.width + 1; i++) {
+                arr[i] = this.createDiv(1,1,i,this.height,"#000");
+            }
+            $("horizon").innerHTML += arr.join("");//把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
+        },
+        createDiv: function (w,h,x,y,color) {
+            return "<div style='width:" + w + "px;height:" + h + "px;left:" + x +"px;top:" + y + "px;background:" + color + "'></div>"
+        }};
+        Sin.drawLine()
+</script>
+</body>
+</html>

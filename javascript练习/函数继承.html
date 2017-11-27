@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function A() {
+      this.color='red';
+    }
+    A.prototype.color=function () {
+        alert(this.color)
+    }
+    function B() {
+        A.call(this);
+    }
+    B.prototype=new A();
+</script>
+</body>
+</html>

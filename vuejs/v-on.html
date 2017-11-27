@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <button v-on:click="Postmessage">分割</button>
+    <button v-on:click="remessage1">复原</button>
+    <li>{{remessage}}</li>
+</div>
+<script>
+    vm=new Vue({
+        el:'#app',
+        data:{
+            message:'hello vue',
+            remessage:'hello vue'
+        },
+        methods:{
+            Postmessage:function () {
+                this.remessage=this.message.split(' ').reverse().join(' ')
+            },
+            remessage1:function () {
+                this.remessage=this.message
+            }
+        }
+    })
+</script>
+</body>
+</html>

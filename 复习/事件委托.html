@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+<ul class="oul">
+    <li>000</li>
+    <li>111</li>
+    <li>222</li>
+</ul>
+<script type="text/javascript">
+//   var Oli=document.getElementsByTagName('li');
+//   for(var i=0;i<Oli.length;i++){
+//       Oli[i].index=i;
+//       Oli[i].onclick=function (e) {
+//           console.log(e.target.index)
+//       }
+//   }
+//    $('li').on('click',function () {
+//          console.log($(this).index())
+//    })
+    var Oul=document.querySelector('ul');
+    var Oli=document.getElementsByTagName('li');
+    for(var i=0;i<Oli.length;i++){
+        Oli[i].index=i;
+    }
+    Oul.addEventListener('click',function (e) {
+         console.log(e.target.index);
+    })
+</script>
+</body>
+</html>

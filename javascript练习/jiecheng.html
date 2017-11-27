@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function jiecheng(n) {
+        if(n<=2){
+            return n
+        }else {
+            return n*jiecheng(n-1)
+        }
+    }
+    console.log(jiecheng(6));
+</script>
+</body>
+</html>

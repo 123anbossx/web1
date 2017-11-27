@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function aa(n) {
+       if(n<=2) {
+         return n
+       }else {
+           return aa(n-1)*n;
+       }
+    }
+    console.log(aa(7));
+    //非递归
+    function aa2(n) {
+        if(n<=2){
+            return n;
+        }else {
+            var a=2;
+            var c=0;
+            for(var i=3;i<=n;i++){
+                c=a*i;
+                 a=c;
+
+            }
+      return c
+        }
+    }
+    console.log(aa2(7))
+</script>
+</body>
+</html>

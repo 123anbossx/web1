@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+    <style>
+        #oli{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <li v-html="mes" v-bind:id="seen"></li>
+    <button v-bind:disable="change"@click="change">状态切换</button>
+
+</div>
+<script>
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            mes:'<span></span>',
+            seen:'oli',
+            change:true
+        },
+        methods:{
+            change:function () {
+
+            }
+        }
+    })
+</script>
+</body>
+</html>

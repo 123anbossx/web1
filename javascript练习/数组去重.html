@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr=[1,2,3,4,2,4];
+    for(var i=0;i<arr.length;i++) {
+        if(arr.indexOf(arr[i])!=i){
+           arr.splice(i)
+        }
+    }
+    console.log(arr)
+</script>
+</body>
+</html>

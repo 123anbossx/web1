@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 1px solid #000;
+            border-collapse: collapse;
+            width: 60%;
+        }
+        td{
+            border: 1px solid #000;
+
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>age</td>
+        <td>操作</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>lisi</td>
+        <td>32</td>
+        <td><a href="#">修改</a>|<a href="#" class="del" data-id="1">删除</a></td>
+
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>wangwu</td>
+        <td>12</td>
+        <td><a href="#">修改</a>|<a href="#" class="del" data-id="2">删除</a></td>
+    </tr>
+</table>
+<script>
+    var aDel = document.querySelectorAll('.del');
+    for(var i=0; i<aDel.length; i++){
+        aDel[i].onclick = function () {
+            console.log(this.dataset.id);
+            return false;
+        };
+    }
+</script>
+</body>
+</html>

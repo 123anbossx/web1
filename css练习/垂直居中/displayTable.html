@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container {
+            height: 300px;
+            display: table;/*让元素以表格形式渲染*/
+        }
+        #content {
+            display:table-cell;/*让元素以表格的单元素格形式渲染*/
+            vertical-align: middle;/*使用元素的垂直对齐*/
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="content">contentiguguvyvuvuv</div>
+</div>
+<!--这种方法不会像前面的两种方法一样，有高度的限制，此方法可以要据元素内容动态的改变高度，-->
+<!--从而也就没有空间的限制，元素的内容不会因为没足够的空间而被切断或者出现难看的滚动条。著作权归作者所有。-->
+
+</body>
+</html>

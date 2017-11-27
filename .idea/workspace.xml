@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c123d969-19f9-41c4-b55f-d4684bc8a0be" name="Default" comment="代码上传">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/app-icon72x72@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/admin-chrome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/admin-firefox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/admin-ie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/admin-opera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/admin-safari.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/adminPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/blogPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/landing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/landingPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/loginPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/examples/sidebarPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/i/startup-640x1096.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/attached/image/20161006/20161006153226_62336.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/attached/image/20161115/20161115102719_49833.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/attached/image/20161115/20161115104050_44683.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/attached/image/20161115/20161115104246_76431.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/attached/image/20161127/20161127035455_15408.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/107.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/108.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/109.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/110.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/111.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/112.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/113.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/114.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/115.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/116.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/117.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/118.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/119.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/120.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/121.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/122.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/123.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/124.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/125.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/126.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/127.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/128.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/129.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/130.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/131.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/132.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/133.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/134.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/images/static.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/filemanager/images/file-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/filemanager/images/file-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/filemanager/images/folder-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/filemanager/images/folder-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/filemanager/images/go-up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/image/images/align_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/image/images/align_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/image/images/align_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/image/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/multiimage/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/multiimage/images/select-files-en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/multiimage/images/select-files-zh_CN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/multiimage/images/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/common/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/common/flash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/common/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/common/media.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/common/rm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/default/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/default/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/qq/editor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/font/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/1.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/2.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115155515_53305.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115155823_85596.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115155900_43346.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115160059_82660.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115160149_65670.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115164601_29956.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115164708_26616.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115164720_29827.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115164753_70054.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115164803_18388.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115164814_61017.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165101_33870.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165122_95468.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165130_47746.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165140_75906.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165203_42827.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165238_78392.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165246_32922.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165550_44565.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165610_98448.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165619_28039.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115165716_63967.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115170752_37498.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115171209_41217.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161115171256_30165.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161116075516_13655.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161116085420_96083.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161116085745_12914.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161116090916_50764.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161116091027_82858.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/20161116091055_55648.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/3.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/downloads/4.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/banner-150.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/banner-220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/banner-242.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/banner-300.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/banner-360.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/body_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/center.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/favicon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/left_icon1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/logo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/slide1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/slide2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/img/slide3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/fonts/texb.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161122065133_98739.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161122071136_99664.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161122071336_34771.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161122071438_43291.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161122071506_34425.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161122072336_21738.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161122072422_23211.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170244_52349.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170412_93754.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170457_66445.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170538_65788.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170658_20991.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170819_61111.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170905_46702.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161126170959_22365.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127025743_18434.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127025757_78266.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127030248_83182.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127030441_94163.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127030505_82537.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127030536_91518.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127030554_41929.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127035511_80724.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127035927_50509.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127040810_13375.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/20161127041200_87291.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/animate用法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/jslib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/案例3.1轮播图.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/案例3.2轮播图.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/案例3.3轮播图_淡入淡出.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/案例3.1轮播图/案例3.4轮播图_无缝滚动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/background-clip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/border-image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/box-size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/hover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/multi-column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/outline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/tab-size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/text-indent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/text-overflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/white-space.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/word-break.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/垂直居中/displayTable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/垂直居中/flex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css练习/垂直居中/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.idea/hrbwxd.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/config/wxpay_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/controllers/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/controllers/welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/errors/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/errors/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/errors/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/errors/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/libraries/Wechat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/models/admin_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/models/article_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/models/article_type_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/models/download_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/models/img_news_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/models/upload_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/add_blog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/admin_blog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/admin_header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/admin_index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/admin_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/admin_sidebar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/article_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/article_edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/article_type.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/article_type_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/article_type_edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/download.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/file_upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/img_news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/img_news_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/img_news_edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/admin/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/download.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/img_news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/list-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/lists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/application/views/upload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/css/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/css/amazeui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/css/amazeui.flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/css/amazeui.flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/css/amazeui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/amazeui.ie8polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/amazeui.ie8polyfill.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/amazeui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/amazeui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/amazeui.widgets.helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/amazeui.widgets.helper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/handlebars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/auto-height.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/colorpicker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/custom-plugin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/custom-theme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/dynamic-load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/file-dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/file-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/filter-mode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/image-dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/multi-image-dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/multi-language.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/newline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/node.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/paste-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/qqstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/uploadbutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/url-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/examples/word-count.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/kindeditor-all-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/kindeditor-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/kindeditor-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/kindeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/lang/zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/lang/zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/php/JSON.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/php/demo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/php/file_manager_json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/php/upload_json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/anchor/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/autoheight/autoheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/baidumap/baidumap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/baidumap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/baidumap/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/clearhtml/clearhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/code/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/code/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/code/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/emoticons/emoticons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/filemanager/filemanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/flash/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/insertfile/insertfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/lineheight/lineheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/link/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/map/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/media/media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/multiimage/multiimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/pagebreak/pagebreak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/plainpaste/plainpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/preview/preview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/quickformat/quickformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/table/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/template/html/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/template/html/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/template/html/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/plugins/wordpaste/wordpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/qq/qq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/assets/kindeditor/themes/simple/simple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/article.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/download.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/lists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/hrbwxd.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/angular-1.5.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/angular-cookies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/angular-translate-storage-cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/angular-translate-storage-local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/angular-translate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/echart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/echarts.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/jquery.goup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/js/uploadPreview.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Benchmark.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/CodeIgniter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Input.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Output.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Router.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/URI.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/Utf8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/DB_active_rec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/DB_cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/DB_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/DB_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/DB_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/DB_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/cubrid/cubrid_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/cubrid/cubrid_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/cubrid/cubrid_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/cubrid/cubrid_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/cubrid/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mssql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mssql/mssql_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mssql/mssql_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mssql/mssql_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mssql/mssql_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysql/mysql_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysql/mysql_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysql/mysql_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysql/mysql_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysqli/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysqli/mysqli_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysqli/mysqli_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysqli/mysqli_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/mysqli/mysqli_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/oci8/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/oci8/oci8_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/oci8/oci8_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/oci8/oci8_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/oci8/oci8_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/odbc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/odbc/odbc_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/odbc/odbc_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/odbc/odbc_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/odbc/odbc_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/pdo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/pdo/pdo_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/pdo/pdo_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/pdo/pdo_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/pdo/pdo_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/postgre/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/postgre/postgre_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/postgre/postgre_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/postgre/postgre_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/postgre/postgre_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlite/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlite/sqlite_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlite/sqlite_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlite/sqlite_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlite/sqlite_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlsrv/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlsrv/sqlsrv_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlsrv/sqlsrv_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlsrv/sqlsrv_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/drivers/sqlsrv/sqlsrv_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/database/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/fonts/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/array_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/captcha_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/cookie_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/date_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/directory_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/download_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/email_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/file_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/form_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/html_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/inflector_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/language_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/number_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/path_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/security_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/smiley_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/string_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/text_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/typography_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/url_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/helpers/xml_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/calendar_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/date_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/db_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/email_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/form_validation_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/ftp_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/imglib_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/migration_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/number_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/profiler_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/unit_test_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/english/upload_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cache/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cache/drivers/Cache_apc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cache/drivers/Cache_dummy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cache/drivers/Cache_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cache/drivers/Cache_memcached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cache/drivers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Calendar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Cart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Email.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Encrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Form_validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Ftp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Image_lib.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Javascript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Sha1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Trackback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Typography.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Unit_test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/User_agent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Xmlrpc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Xmlrpcs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/Zip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/javascript/Jquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/system/libraries/javascript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hrbwxd/uploads/4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/compute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/compute1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/jiecheng.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/pop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/sin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/函数继承.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/取数字.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/年月日.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/数组去重.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/正玄.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/正玄1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/求素数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/画正玄图像.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/递归.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript练习/闭包.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/class.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/props.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/v-bind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/v-for.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/v-html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/v-on.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/复习/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/复习/v-bind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/复习/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/复习/事件委托.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript练习/join.html" afterPath="$PROJECT_DIR$/javascript练习/join.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript练习/prototype.html" afterPath="$PROJECT_DIR$/javascript练习/prototype.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript练习/splice.html" afterPath="$PROJECT_DIR$/javascript练习/splice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs2/expdir/views/register.ejs" afterPath="$PROJECT_DIR$/nodejs2/expdir/views/register.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/querySlector.html" afterPath="$PROJECT_DIR$/querySlector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/component.html" afterPath="$PROJECT_DIR$/react/component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/hrbwxd/.idea/misc.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="web1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/javascript练习/data.html" />
+        <option value="$PROJECT_DIR$/javascript习题/4.3.1.html" />
+        <option value="$PROJECT_DIR$/javascript练习/jiecheng.html" />
+        <option value="$PROJECT_DIR$/javascript习题/4.3.8.html" />
+        <option value="$PROJECT_DIR$/javascript练习/compute.html" />
+        <option value="$PROJECT_DIR$/javascript习题/5.3.1.html" />
+        <option value="$PROJECT_DIR$/javascript练习/compute1.html" />
+        <option value="$PROJECT_DIR$/javascript习题/5.3.7.html" />
+        <option value="$PROJECT_DIR$/javascript练习/年月日.html" />
+        <option value="$PROJECT_DIR$/javascript习题/6.3.4.html" />
+        <option value="$PROJECT_DIR$/vuejs/v-for.html" />
+        <option value="$PROJECT_DIR$/vuejs/v-on.html" />
+        <option value="$PROJECT_DIR$/vuejs/component.html" />
+        <option value="$PROJECT_DIR$/vuejs/props.html" />
+        <option value="$PROJECT_DIR$/vuejs/v-html.html" />
+        <option value="$PROJECT_DIR$/vuejs/v-bind.html" />
+        <option value="$PROJECT_DIR$/vuejs/class.html" />
+        <option value="$PROJECT_DIR$/jquery 练习.html" />
+        <option value="$PROJECT_DIR$/javascript练习/正玄.html" />
+        <option value="$PROJECT_DIR$/javascript练习/sin.html" />
+        <option value="$PROJECT_DIR$/javascript练习/画正玄图像.html" />
+        <option value="$PROJECT_DIR$/javascript练习/正玄1.html" />
+        <option value="$PROJECT_DIR$/nodejs2/expdir/views/register.ejs" />
+        <option value="$PROJECT_DIR$/css练习/border-image.html" />
+        <option value="$PROJECT_DIR$/css练习/background-clip.html" />
+        <option value="$PROJECT_DIR$/css练习/tab-size.html" />
+        <option value="$PROJECT_DIR$/css练习/box-size.html" />
+        <option value="$PROJECT_DIR$/css练习/white-space.html" />
+        <option value="$PROJECT_DIR$/css3/animation.html" />
+        <option value="$PROJECT_DIR$/javascript练习/递归.html" />
+        <option value="$PROJECT_DIR$/javascript练习/求素数.html" />
+        <option value="$PROJECT_DIR$/javascript练习/取数字.html" />
+        <option value="$PROJECT_DIR$/javascript练习/splice.html" />
+        <option value="$PROJECT_DIR$/javascript练习/join.html" />
+        <option value="$PROJECT_DIR$/javascript练习/pop.html" />
+        <option value="$PROJECT_DIR$/javascript练习/tosource.html" />
+        <option value="$PROJECT_DIR$/javascript练习/数组去重.html" />
+        <option value="$PROJECT_DIR$/css练习/word-break.html" />
+        <option value="$PROJECT_DIR$/css练习/text-indent.html" />
+        <option value="$PROJECT_DIR$/css练习/appearance.html" />
+        <option value="$PROJECT_DIR$/css练习/text-overflow.html" />
+        <option value="$PROJECT_DIR$/css练习/hover.html" />
+        <option value="$PROJECT_DIR$/css练习/outline.html" />
+        <option value="$PROJECT_DIR$/css练习/multi-column.html" />
+        <option value="$PROJECT_DIR$/javascript练习/prototype.html" />
+        <option value="$PROJECT_DIR$/javascript练习/闭包.html" />
+        <option value="$PROJECT_DIR$/javascript练习/函数继承.html" />
+        <option value="$PROJECT_DIR$/css练习/垂直居中/line-heighgt.html" />
+        <option value="$PROJECT_DIR$/css练习/垂直居中/displayTable.html" />
+        <option value="$PROJECT_DIR$/css练习/垂直居中/position.html" />
+        <option value="$PROJECT_DIR$/css练习/垂直居中/flex.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1370" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="D:/untitled" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\js代码\web1" />
+      <recent name="D:\js代码\web1\.idea" />
+      <recent name="D:\js代码\web1\复习" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c123d969-19f9-41c4-b55f-d4684bc8a0be" name="Default" comment="" />
+      <created>1498712413170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498712413170</updated>
+      <workItem from="1498712414292" duration="269000" />
+      <workItem from="1498714253695" duration="1283000" />
+      <workItem from="1498790626065" duration="53000" />
+      <workItem from="1499392976303" duration="7644000" />
+      <workItem from="1499417213105" duration="613000" />
+      <workItem from="1499594042972" duration="2198000" />
+      <workItem from="1499650103191" duration="41000" />
+      <workItem from="1499651500982" duration="499000" />
+      <workItem from="1500894945836" duration="739000" />
+      <workItem from="1500974900671" duration="4175000" />
+      <workItem from="1501053822627" duration="387000" />
+      <workItem from="1501113459427" duration="55000" />
+      <workItem from="1501316871979" duration="238000" />
+      <workItem from="1501376348217" duration="348000" />
+      <workItem from="1501407327149" duration="1005000" />
+      <workItem from="1501463541890" duration="2505000" />
+      <workItem from="1501639266988" duration="1096000" />
+      <workItem from="1501664489610" duration="1829000" />
+      <workItem from="1501984831547" duration="14408000" />
+      <workItem from="1502073192608" duration="12453000" />
+      <workItem from="1502254774682" duration="2193000" />
+      <workItem from="1502264539105" duration="645000" />
+      <workItem from="1502334213725" duration="230000" />
+      <workItem from="1502710515349" duration="90000" />
+      <workItem from="1502710879189" duration="674000" />
+      <workItem from="1503197508378" duration="15381000" />
+      <workItem from="1503270380787" duration="107000" />
+      <workItem from="1503270515994" duration="46000" />
+      <workItem from="1503748375020" duration="237000" />
+      <workItem from="1504451300810" duration="248000" />
+      <workItem from="1505347575598" duration="176000" />
+      <workItem from="1510630475336" duration="10201000" />
+      <workItem from="1510709941152" duration="9587000" />
+      <workItem from="1510804725833" duration="8006000" />
+      <workItem from="1510829017347" duration="3492000" />
+      <workItem from="1510888291999" duration="3171000" />
+      <workItem from="1511666576116" duration="4510000" />
+      <workItem from="1511750633727" duration="668000" />
+    </task>
+    <task id="LOCAL-00001" summary="选中匹配元素的第一个元素">
+      <created>1498712627437</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1498712627437</updated>
+    </task>
+    <task id="LOCAL-00002" summary="贪吃蛇游戏">
+      <created>1499651638806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499651638806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="对一些css的练习">
+      <created>1501316962998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1501316962998</updated>
+    </task>
+    <task id="LOCAL-00004" summary="css3新增属性的练习">
+      <created>1501407387170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501407387170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="html5常用属性练习">
+      <created>1501470364620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501470364620</updated>
+    </task>
+    <task id="LOCAL-00006" summary="es6的练习">
+      <created>1501984922688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1501984922688</updated>
+    </task>
+    <task id="LOCAL-00007" summary="javascript基础属性练习">
+      <created>1502000281222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502000281222</updated>
+    </task>
+    <task id="LOCAL-00008" summary="代码上传">
+      <created>1511751008010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511751008010</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="111500000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07582418" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="选中匹配元素的第一个元素" />
+    <MESSAGE value="贪吃蛇游戏" />
+    <MESSAGE value="对一些css的练习" />
+    <MESSAGE value="css3新增属性的练习" />
+    <MESSAGE value="html5常用属性练习" />
+    <MESSAGE value="es6的练习" />
+    <MESSAGE value="哈尔滨无线电管理处官网" />
+    <MESSAGE value="javascript基础属性练习" />
+    <MESSAGE value="代码上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码上传" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nodejs2/expdir/models/usermodels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/面试题1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/三列，中间固定，左右自适应.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs2/expdir/controlers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs2/expdir/views/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/require.js/轮播图组件/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/正玄1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="65" column="107" lean-forward="false" selection-start-line="65" selection-start-column="107" selection-end-line="65" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/正玄.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/sin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/画正玄图像.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/img/ee57c2ad933aabb5f0030e7ade8a5308.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/tab-size.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/background-clip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="81" lean-forward="false" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/border-image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/box-size.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/white-space.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/递归.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/求素数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/年月日.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/取数字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/tostring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/splice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/concat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试题/回文数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/3.3.1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/pop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/tosource.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/jiecheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/数组去重.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/3.3.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/4.3.3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/4.3.5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/4.3.7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/4.3.8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/hover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1443">
+          <caret line="51" column="7" lean-forward="false" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/6.3.6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript习题/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5217">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/multi-column.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="103" lean-forward="false" selection-start-line="24" selection-start-column="103" selection-end-line="24" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/outline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/text-overflow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/appearance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/text-indent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/word-break.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/垂直居中/flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/垂直居中/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css练习/垂直居中/displayTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/函数继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript练习/闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

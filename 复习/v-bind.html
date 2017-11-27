@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <span v-bind:title="mes"></span>
+    <input type="text"v-model="mes">
+     <li>{{mes}}</li>
+      <li v-for="array in arry">
+          {{array.text}}
+      </li>
+      <li v-if="seen">
+          {{mes}}
+      </li>
+</div>
+<script>
+    var vm=new Vue({
+        el:'#app',
+        data:{
+           mes:'',
+            arry:[
+                {text:'123'},
+                {text:'456'},
+                {text:'789'}
+            ],
+            seen:true
+        }
+    })
+</script>
+</body>
+</html>

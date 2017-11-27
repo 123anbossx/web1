@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <item-id  v-for="todo in message" v-bind:todo="todo"></item-id>
+</div>
+<script>
+    Vue.component('item-id',{
+        props:['todo'],
+        template:'<li>{{todo.name}}</li>>'
+    });
+    var vm=new Vue({
+        el:'#app',
+        data:{message:[{name:'这是一个vue对象'},
+                        {name:'这是一个vue对象'},
+                        {name:'这是一个vue对象'}
+                       ]}
+    });
+
+</script>
+</body>
+</html>
