@@ -1,0 +1,17 @@
+.text-box{
+    width: 500px;
+    height: 45px;
+    background-color: red;
+    animation: move 9s linear forwards;
+    right: -500px;
+
+}
+@keyframes move {
+    from{
+
+    }
+    to{
+        -webkit-transform: translate(-2000px);
+
+    }
+}
